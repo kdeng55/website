@@ -9,6 +9,7 @@ body{
 .container {
   margin: 1rem;
   text-align: center;
+
 }
 
 .site-title  {
@@ -16,14 +17,16 @@ body{
 }
 
 .nav {
-  background-color: #333;
-  color: white;
+  background-color: rgba(0,0,0,0.0);
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: stretch; /*hover spans entire container*/
   gap: 2rem; /*space in between elements*/
   padding: 0 1rem; /*left and right spaces*/
+  height: 4rem;
 }
+
 
 .nav ul{
   padding: 0;
@@ -50,3 +53,48 @@ body{
   background-color: #777;
 }
 
+.home {
+  text-align: left;
+  margin: 3rem;
+  font-size: 3rem;
+}
+
+.name{
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-me {
+  padding: 5rem;
+  margin: 2rem;
+  font-size: 1.8rem;
+}
+
+.sing {
+  padding: 2rem;
+  margin: 3rem;
+  height: 32rem;
+  width: 25rem;
+}
+
+.background-container {
+  display: flex;
+  align-items: center;
+}
+
+.taiwan {
+  height: 30rem;
+  width: 40rem;
+  padding: 5rem;
+  margin: 1rem;
+}
+
+.background {
+  font-size:1.8rem;
+  padding: 2rem;
+}

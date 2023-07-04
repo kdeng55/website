@@ -1,3 +1,8 @@
+import sing from '../img/sing.jpeg';
+import taiwan from '../img/taiwan.JPG'
+
 export default function Home () {
-    return <h1>Home</h1>
+    return <div className="home">
+    <p>Hey there, my name is Katherine.</p>
+    </div>
 }
