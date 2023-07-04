@@ -1,5 +1,7 @@
 import sing from '../img/sing.jpeg';
 import taiwan from '../img/taiwan.JPG'
+import timeline from '../components/timeline.js'
+
 
 export default function About () {
     return <div className="home-container">
@@ -25,6 +27,7 @@ export default function About () {
             I'm especially interested in the interesection of 
             technology and human interaction!
         </p>
+        <timeline></timeline>
         </div>
     </div>
     </div>
