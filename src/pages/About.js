@@ -5,22 +5,22 @@ import timeline from '../components/timeline.js'
 
 export default function About () {
     return <div className="home-container">
-    <div className="name">
+    <section className="name">
         <p>About me</p>
-    </div>
+    </section>
     <div className="about-container">
-    <div className="about-me">
-        <p>I'm a current student at Boston University 
-            pursuing a BA in Computer Science along with 
-            a minor in History! I'm interested in
-            pursuing a future in UX Design and 
-            Front End Development. </p>
-    </div>
+        <div className="about-me">
+            <p>I'm a current student at Boston University 
+                pursuing a BA in Computer Science along with 
+                a minor in History! I'm interested in
+                pursuing a future in UX Design and 
+                Front End Development. </p>
+        </div>
             <img src={sing} className="sing" alt="img1" />
         </div>
     <div className="background-container">
         <img src={taiwan} className="taiwan" alt="img2" />
-        <div className="background">
+        <section className="background">
         <p>I grew up in Newton, Massachusetts and graduated from 
             Newton South High in May of 2020. From there, I pursued an education 
             at Boston University. I chose to major in CS and history because 
@@ -28,7 +28,7 @@ export default function About () {
             technology and human interaction!
         </p>
         <timeline></timeline>
-        </div>
+        </section>
     </div>
     </div>
 }
