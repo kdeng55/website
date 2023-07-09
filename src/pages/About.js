@@ -1,6 +1,7 @@
 import sing from '../img/sing.jpeg';
-import taiwan from '../img/taiwan.JPG'
-import timeline from '../components/timeline.js'
+import taiwan from '../img/taiwan.JPG';
+import timeline from '../components/timeline.js';
+
 
 
 export default function About () {
@@ -15,9 +16,7 @@ export default function About () {
                 a minor in History! I'm interested in
                 pursuing a future in UX Design and 
                 Front End Development. </p>
-        </div>
             <img src={sing} className="sing" alt="img1" />
-        </div>
     <div className="background-container">
         <img src={taiwan} className="taiwan" alt="img2" />
         <section className="background">
@@ -27,8 +26,10 @@ export default function About () {
             I'm especially interested in the interesection of 
             technology and human interaction!
         </p>
-        <timeline></timeline>
         </section>
     </div>
     </div>
+    </div>
+    </div>
+    
 }
