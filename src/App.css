@@ -17,11 +17,23 @@ body{
 }
 
 .site-title  {
-  font-size: 2rem;
+  font-family: Helvetica;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+}
+
+.egg{
+  width: 8rem;
+  height: 5rem;
+  margin-left: -2.5rem;
+  margin-top: .4rem;
+  
 }
 
 .nav {
-  background-color: rgba(0,0,0,0.0);
   color: black;
   display: flex;
   justify-content: space-between;
@@ -29,6 +41,8 @@ body{
   gap: 2rem; /*space in between elements*/
   padding: 0 1rem; /*left and right spaces*/
   height: 4rem;
+  border-bottom: .2rem solid black;
+  background-color: white;
 }
 
 
@@ -38,6 +52,7 @@ body{
   list-style: none;
   display: flex;
   gap: 1rem;
+
 }
 
 .nav a {
@@ -57,12 +72,16 @@ body{
   background-color: #777;
 }
 
-.home {
+.home-container {
   text-align: left;
   margin: 3rem;
   font-size: 3rem;
 }
 
+.home-body{
+  /*border: 2px solid #000; */
+  background-color: #FEF6E4;
+}
 .name{
   font-size: 2.3rem;
   text-align: center;
@@ -103,6 +122,7 @@ body{
   padding: 2rem;
 }
 
+
 .skill-top{
   text-align: center;
 }
@@ -111,11 +131,171 @@ body{
   text-align: left;
   margin: 5rem;
   align-items: left;
+}
+
+.skill-middle-container h2 {
+  text-align: left;
+  margin-left: 12rem;
+}
+
+.skills-body{
+  display:inline-flex;
+}
+
+.timeline{
+ flex-basis: 300rem; /* sets initial flexbox width*/
+}
+
+.find-me{
+  margin-right: 2rem; 
+  flex-basis: 50rem; 
+}
+
+.git{
+  width: 2rem;
+  height: 2rem;
+}
+
+.link{
+  width: 2rem;
+  height: 2rem;
+}
+
+.find-me ul{
+ margin: 1rem 0;
+ margin-left: -1.6rem;
+ line-height: 3rem;
+}
+
+.skills-head {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.canDo h2{
+  text-align: center;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+.greeting {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 5.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  display: flex;
+}
+
+.ytop{
+  width: 45rem;
+  height:40rem;
+  flex-shrink: 0;
+  float: right;
+  margin-right: 10rem;
+  margin-top: -30rem;
+  margin-bottom: -5rem;
+}
+
+.bblob{
+  float: right;
+  margin-top: -40rem;
+  max-height: 20rem;
+  max-width: 20rem;
+  margin-right: 0rem;
+}
+
+.rblob{
+  height: 28rem;
+  margin-top: -7rem;
+  margin-bottom: -3rem;
+}
+
+.home-body{
+  color: #000;
+  font-family: Actor;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 2.4rem */
+  padding: 2rem;
+  width: 40.75rem;
+  margin-left: 26rem;
+  margin-top: -14rem;
+}
+
+.row-container{
+  display:flex;
+  font-size: 2rem;
+  border: .2rem solid black; 
+}
+
+.row {
+  width: 50%;
+  height: 33.75rem;
+  background-color: #00539C;
 
 }
 
-.skill-middle-container h1 {
-  font-size: 1.8rem;
-  margin-left: 11rem;
+.row2 {
+  width: 50%;
+  height: 33.75rem;
+  background-color: #EEA47F;
 }
 
+.row h1, .row2 h1 {
+  margin: 1rem;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 3.5rem */
+}
+
+
+.row p, .row2 p{
+  margin: 1rem;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.footer{
+  display:flex;
+  font-size: 3.5rem;
+}
+
+.email{
+  width: 50%;
+  height: 10rem;
+  font-size: 2.3rem;
+  text-align: center;
+  border-right: .1rem solid black; 
+  border-bottom: .1rem solid black; 
+}
+
+.socials{
+  width: 50%;
+  height: 10rem;
+  font-size: 2.3rem;
+  text-align: center;
+  border-left: .1rem solid black; 
+  border-bottom: .1rem solid black; 
+}
+
+.case2container{
+  margin-bottom: 0rem;
+}
+.case2{
+  height: auto; 
+  width: auto; 
+  max-width: 20.8125rem;
+  max-height: 18.5rem;
+  float:right;
+  margin-top: 3.25rem;
+
+}

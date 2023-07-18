@@ -29,7 +29,7 @@ export default function timeline() {
             </TimelineSeparator>
             <TimelineContent
                 sx={{
-                  marginRight: 50,
+                  marginRight: 20,
               }}
             >
                <b>Undergraduate Research Assistant @ Boston University</b>
@@ -56,7 +56,7 @@ export default function timeline() {
             </TimelineSeparator>
             <TimelineContent
             sx={{
-              marginRight: 50,
+              marginRight: 20,
           }}
             ><b>AI4ALL Coordinator</b>
             <Typography variant="body2" color="gray" >July 2023-August 2023</Typography>
@@ -64,7 +64,7 @@ export default function timeline() {
               high school girls a three week long program consisting of AI
               and Machine Learning Content. Presented speakers from 
               BU AIR Lab and field trips to Affectiva and Meta. 
-              Develop and implement curriculum, workshops, and mentorship
+              Developed and implemented curriculum, workshops, and mentorship
               programs to provide students with comprehensive AI education and hands-on experiences.
               </Typography>
             </TimelineContent>
@@ -75,7 +75,7 @@ export default function timeline() {
             </TimelineSeparator>
             <TimelineContent
             sx={{
-              marginRight: 50,
+              marginRight: 20,
             }}>
               <b>Intern @ Virtudent</b>
               <Typography variant="body2" color="gray" >July 2020-August 2020</Typography>
@@ -87,4 +87,5 @@ export default function timeline() {
           </TimelineItem>
         </Timeline>
       );
+      
     }

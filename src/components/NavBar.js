@@ -1,7 +1,11 @@
-import {Link, useMatch, useResolvedPath} from "react-router-dom"
+import {Link, useMatch, useResolvedPath} from "react-router-dom";
+import egg from '../img/egg.svg';
+
 export default function NavBar (){
     return <nav className="nav">
-        <Link to="/" className= "site-title">Katherine.</Link>
+        <Link to="/" className= "site-title">Katherine
+        <img src={egg} className="egg" alt="egg" />
+        </Link>
         <ul>
             <CustomLink to="/about">About</CustomLink>
             <CustomLink to="/skills">Skills</CustomLink>
