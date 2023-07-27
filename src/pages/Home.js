@@ -2,7 +2,8 @@ import ytop from '../img/ytop.svg'
 import greenblob from '../img/greenblob.svg'
 import blueblob from '../img/blueblob.svg'
 import redblob from '../img/redblob.svg'
-import case2 from '../img/case2.jpg'
+import research from '../img/research.png'
+
 
 export default function Home () {
 return <div className="home">
@@ -25,13 +26,11 @@ return <div className="home">
             <div className="row">
                 <p>2023</p>
                 <h1>Solo Travelling, Made Easier.</h1>
+                <p className="description1">UX Research and Design</p>
             </div>
-            <div className="row2">
-                <p>2023</p>
-                <h1>Building a Research Application for NUS</h1>
-                <div className="case2container">
-                <img src={case2} className="case2" alt="case2" />
-                </div>
+            <div class="container-rec">
+                <h1>Research, Improved. @NUS</h1>
+                <div class="rectangle"></div>
             </div>
         </div>
         <footer className="footer">
