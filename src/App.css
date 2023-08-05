@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.font-Inter{
+  font-family: 'Inter', sans-serif;
+  font-weight: 530;
+}
+
 .MuiTimelineConnector-root{
   width: 20rem;
 }
@@ -83,14 +88,36 @@ body{
   background-color: #FEF6E4;
 }
 .name{
-  font-size: 2.3rem;
-  text-align: center;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: -2rem;
+  margin-left: 2rem;
 }
 
 .about-container {
   display: flex;
   align-items: center;
 }
+
+.tai-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption-taiwan{
+  color: #000;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -5rem;
+  letter-spacing: 0.025rem;
+  }
 
 .about-me {
   padding: 5rem;
@@ -111,15 +138,59 @@ body{
 }
 
 .taiwan {
-  height: 30rem;
-  width: 40rem;
+  max-height: 40rem;
+  max-width: 40rem;
   padding: 5rem;
   margin: 1rem;
 }
 
+.hobbies{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around; /* Optional - Adjust alignment as needed */
+  align-items: center;
+}
+
+.things-i-enjoy{
+  width: 45%;
+}
+
+.my-current-obsession{
+  width: 40%;
+}
+
+.things-i-enjoy h1, .my-current-obsession h1{
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 2.625rem */
+  letter-spacing: 0.0875rem;
+}
+
+.things-i-enjoy p, .my-current-obsession p {
+  color: var(--taffy, #041514);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.875rem */
+  letter-spacing: 0.025rem;
+}
+
 .background {
-  font-size:1.8rem;
   padding: 2rem;
+}
+
+
+.background p {
+  color: var(--taffy, #041514);
+  font-family: Helvetica;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.875rem */
+  letter-spacing: 0.0625rem;
 }
 
 
@@ -173,11 +244,20 @@ body{
   margin-top: 5rem;
 }
 
-.canDo h2{
-  text-align: center;
-  margin-left: 3rem;
+.skills-title{
+  display: inline-block; /* Make the border fit the content width */
+  padding: 10px; /* Optional - Add some padding around the text */
+  border: 2px solid #333; /* Border style */
+  background-color: transparent; 
   margin-top: 5rem;
+  margin-left: 8rem;
 }
+
+.skills-title h2{
+  font-weight: 800;
+  margin:0;
+}
+
 .greeting {
   color: #000;
   font-family: Helvetica;
@@ -189,13 +269,20 @@ body{
 }
 
 .ytop{
-  width: 45rem;
-  height:40rem;
+  max-height:40rem;
+  max-width: 40rem;
   flex-shrink: 0;
-  float: right;
+  float:right;
   margin-right: 10rem;
-  margin-top: -30rem;
-  margin-bottom: -5rem;
+  margin-top: -19rem;
+  margin-bottom: -8rem;
+}
+
+.oblob{
+  max-height:20rem;
+  max-width: 40rem;
+  margin-left: 45rem;
+  margin-top: -20rem;
 }
 
 .bblob{
@@ -214,15 +301,16 @@ body{
 
 .home-body{
   color: #000;
-  font-family: Actor;
-  font-size: 2rem;
+  font-family: "Inter";
+  font-size: 1.6rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 120%; /* 2.4rem */
   padding: 2rem;
   width: 40.75rem;
   margin-left: 26rem;
-  margin-top: -14rem;
+  margin-top: -16rem;
+  margin-bottom: 6rem;
 }
 
 .row-container{
@@ -309,8 +397,8 @@ body{
 }
 
 .container-rec {
+  margin-top: 2.25rem;
   display: flex;
-
   justify-content: flex-end; /* Push the rectangle to the far right */
   align-items: center;
 }
@@ -320,6 +408,7 @@ body{
   height: 33.75rem;
   background-color: rgba(156, 201, 240, 0.78);
 }
+
 
 .container-rec h1{
   color: #000;
@@ -332,8 +421,143 @@ body{
   margin-right: 8rem;
 }
 
+.container-rec p{
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 12rem;
+  position: absolute;
+  left: 6.5rem;
+}
+
+.description2 {
+  color: #000;
+  display: flex;
+  width: 14rem;
+  height: 2.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem !important;
+  margin-top: 22rem;
+}
+
+.proj1{
+  position: absolute;
+  margin-right: 7rem;
+  z-index: 1;
+  max-width: 40rem; /* Set the maximum width to 100% of its parent container */
+  max-height: 30rem;
+}
+.down-arrow {
+  position: absolute;
+  top: calc(100vh - 60px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
 .footer{
   display:flex;
   font-size: 3.5rem;
   margin-top: 5rem;
+}
+
+.projects h1{
+  text-align: center;
+  margin-top: 8rem;
+  color: var(--dark-grey-80, #101214);
+  font-family: Helvetica;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem; /* 100% */
+  letter-spacing: 0.0625rem;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+.proj1-box{
+  margin-right: 5rem;
+}
+
+.proj1-box h4{
+  color: var(--dark-grey-80, #101214);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.75rem; /* 137.5% */
+  letter-spacing: 0.0625rem;
+  margin-top: -.1rem;
+  margin-bottom: -1rem;
+}
+
+.proj1-box p {
+  color: var(--dark-grey-60, #73808D);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 120% */
+  letter-spacing: 0.03125rem;
+}
+
+.project-travel{
+  margin-right: 5rem;
+  width: 28rem;
+  height: 20rem;
+  flex-shrink:0;
+  background-color: #DBECFF;
+}
+
+.proj2-box h4{
+  margin-left: 5rem;
+  color: var(--dark-grey-80, #101214);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.75rem; /* 137.5% */
+  letter-spacing: 0.0625rem;
+  margin-bottom: -1rem;
+}
+
+.proj2-box p{
+  margin-left: 5rem;
+  color: var(--dark-grey-60, #73808D);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 120% */
+  letter-spacing: 0.03125rem;
+}
+
+.project-research{
+  float: right;
+  margin-left: 5rem;
+  width: 28rem;
+  height: 20rem;
+  flex-shrink:0;
+  background-color: #FFEFD7;
 }

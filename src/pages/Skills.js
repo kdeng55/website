@@ -10,8 +10,8 @@ export default function Skills () {
             and portfolio
         </p>
         </div>
-        <heading className="canDo">
-            <h2>So ... What can I do?</h2>
+        <heading className="skills-title">
+            <h2>UX Design Toolkit</h2>
         </heading>
         <div className="skills-head">
             <h3>Ideate</h3>
