@@ -5,6 +5,7 @@ import Projects from './pages/Projects.js';
 import More from './pages/More.js';
 import Skills from './pages/Skills.js';
 import Home from './pages/Home.js';
+import NusResearch from './pages/NusResearch.js';
 import {Route, Routes} from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path ="projects" element={<Projects/>} />
         <Route path="/skills" element={<Skills/>} />
         <Route path="/more" element = {<More/>} />
+        <Route path="/NusResearch" element = {<NusResearch/>} />
       </Routes>
       </div>
      </>

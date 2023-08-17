@@ -4,8 +4,9 @@ import blueblob from '../img/blueblob.svg'
 import redblob from '../img/redblob.svg'
 import research from '../img/research.png'
 import project1 from '../img/project1.svg'
-import BouncingArrow from '../components/BouncingArrow.js'
 import orange from '../img/orange.svg'
+import footer from '../components/footer.js'
+import { Link } from 'react-router-dom';
 
 export default function Home () {
 return <div className="home">
@@ -34,19 +35,17 @@ return <div className="home">
             </div>
             <div class="container-rec">
                 <p>2023</p>
-                <h1>Research, Improved. @NUS</h1>
+                <Link to="/nusresearch" className='research-link'> 
+                <h1>Research, Improved. @NUS</h1> 
+                </Link>
                 <p class="description2">UX Research and Design</p>
+                
                 <div class="rectangle"></div>
+                <Link to="/NusResearch">
                 <img src={project1} className="proj1" alt="proj1" />
+                </Link>
             </div>
         </div>
-        <footer className="footer">
-            <div className="email"> 
-            <h1>kdeng@bu.edu</h1>
-            </div>
-            <div className="socials">
-                <h1>Linkedin</h1>
-            </div>
-        </footer>
+        {footer()}
     </div>
 }

@@ -6,11 +6,11 @@ export default function NavBar (){
         <Link to="/" className= "site-title">Katherine
         <img src={egg} className="egg" alt="egg" />
         </Link>
-        <ul>
+        <ul className="nav-font">
             <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/skills">Skills</CustomLink>
+            <CustomLink to="/skills">Skills</CustomLink> 
             <CustomLink to="/projects">Projects</CustomLink>
-            <CustomLink to="/more">More</CustomLink>
+          {/*  <CustomLink to="/more">More</CustomLink>*/}
         </ul>
     </nav>
 }

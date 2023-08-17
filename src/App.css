@@ -38,6 +38,12 @@ body{
   
 }
 
+.nav-font{
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
 .nav {
   color: black;
   display: flex;
@@ -70,16 +76,24 @@ body{
 }
 
 .nav li.active{
-  background-color: #7c7474;
+  text-decoration: underline;
+  text-decoration-thickness: .2rem;
+  text-decoration-color: #E5D126;
 }
 
+
 .nav li:hover{
-  background-color: #777;
+  transform: scale(1.2);
 }
 
 .home-container {
   text-align: left;
-  margin: 3rem;
+  margin: 3rem; 
+  font-size: 3rem;
+}
+
+.ab-container {
+  text-align: left;
   font-size: 3rem;
 }
 
@@ -95,12 +109,13 @@ body{
   font-weight: 700;
   line-height: normal;
   margin-bottom: -2rem;
-  margin-left: 2rem;
+  margin-left: 5rem;
 }
 
 .about-container {
   display: flex;
   align-items: center;
+  margin: 3rem;
 }
 
 .tai-container{
@@ -145,6 +160,7 @@ body{
 }
 
 .hobbies{
+  margin: 1rem;
   margin-top: 2rem;
   display: flex;
   justify-content: space-around; /* Optional - Adjust alignment as needed */
@@ -242,6 +258,8 @@ body{
   display: flex;
   justify-content: space-around;
   margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .skills-title{
@@ -250,7 +268,7 @@ body{
   border: 2px solid #333; /* Border style */
   background-color: transparent; 
   margin-top: 5rem;
-  margin-left: 8rem;
+  margin-left: 12rem;
 }
 
 .skills-title h2{
@@ -444,12 +462,14 @@ body{
 }
 
 .proj1{
-  position: absolute;
-  margin-right: 7rem;
+  position: absolute; 
+  margin-top: -15rem;
+  margin-left: -33rem;
   z-index: 1;
   max-width: 40rem; /* Set the maximum width to 100% of its parent container */
   max-height: 30rem;
 }
+
 .down-arrow {
   position: absolute;
   top: calc(100vh - 60px);
@@ -474,13 +494,24 @@ body{
   transform: rotateZ(45deg);
 }
 
-.footer{
-  display:flex;
-  font-size: 3.5rem;
-  margin-top: 5rem;
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
-.projects h1{
+.footer{
+  display:flex;
+  font-size: 3.5rem !important;
+  margin-top: 5rem;
+}
+.projects-h1{
   text-align: center;
   margin-top: 8rem;
   color: var(--dark-grey-80, #101214);
@@ -492,7 +523,7 @@ body{
   letter-spacing: 0.0625rem;
 }
 
-.project-container{
+.project-ux-container{
   display: flex;
   justify-content: center;
   margin-right: 5rem;
@@ -525,6 +556,7 @@ body{
 }
 
 .project-travel{
+  border: .2rem solid;
   margin-right: 5rem;
   width: 28rem;
   height: 20rem;
@@ -554,10 +586,504 @@ body{
 }
 
 .project-research{
+  border: .2rem solid;
   float: right;
   margin-left: 5rem;
   width: 28rem;
   height: 20rem;
   flex-shrink:0;
+  flex-grow: 0;
   background-color: #FFEFD7;
+}
+
+.other-projects {
+  display: flex;
+  flex-direction: column; /* Arrange rows vertically */
+  align-items: center; /* Center horizontally */
+  margin-top: 5rem;
+}
+
+.row-projects {
+  display: flex; /* Arrange boxes in a row */
+  justify-content: center; /* Center horizontally */
+  margin-bottom: 2rem; /* Space between rows */
+}
+
+.box-project {
+  margin-left: 7rem; /* Space between boxes */
+  padding-right: 7rem;
+  text-align: left;
+}
+
+.rectangle-other {
+  width: 29rem;
+  height: 20rem;
+  background-color: #D6F3F3;
+  border: .2rem solid;
+}
+
+.rectangle-text{
+  width: 29rem;
+  margin-top: -1.2rem;
+  color: var(--dark-grey-80, #101214);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.0625rem;
+}
+
+.box-project p{
+  margin-top: -1.3rem;
+  color: var(--dark-grey-60, #73808D);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 120% */
+  letter-spacing: 0.03125rem;
+}
+
+.proj1-projects {
+  padding-left: 2.5rem;
+  width: 25rem;
+  height: 20rem;
+}
+
+.code-research{
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--dark-grey-80, #101214);
+  font-family: Helvetica;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem; /* 100% */
+  letter-spacing: 0.0625rem;
+}
+
+.rec-1{
+  width: 20.3125rem;
+  height: 32rem;
+  background-color: rgba(0, 83, 156, 0.78);
+  border-radius: 0.625rem;
+}
+
+.design {
+  text-align: center;
+}
+
+.code {
+  text-align: center;
+}
+
+.ideate {
+  margin: 0rem;
+  text-align: center;
+}
+
+.ideate h3, .code h3, .design h3{
+  color: #000;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 75% */
+}
+
+.ideate h4, .design h4, .code h4 {
+  text-align: left !important;
+  margin-left: 2rem;
+  color: #FFF;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 120% */
+}
+
+.ideate p, .design p, .code p{
+  text-align: left !important;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #FFF;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 171.429% */
+}
+
+.rec-2 {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  width: 10rem;
+  height: 2.6rem;
+  border-radius: 0.625rem;
+  background-color: #EEA47F;
+}
+
+.rec-2-code {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  width: 10rem;
+  height: 2.6rem;
+  border-radius: 0.625rem;
+  background-color: #EEA47F;
+}
+
+.rec-2-ideate {
+  margin-top: 3.5rem;
+  margin-left: 5rem;
+  width: 10rem;
+  height: 2.6rem;
+  border-radius: 0.625rem;
+  background-color: #EEA47F;
+}
+
+.rec-2 p {
+  width: 10rem;
+  color: #FFF;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 133.333% */
+  margin: 1rem;
+  padding-top: .4rem;
+}
+
+.rec-2-ideate p {
+  color: #FFF;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 133.333% */
+  padding-left: 1.8rem;
+  padding-top: .5rem;
+}
+
+.rec-2-code p {
+  color: #FFF;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 133.333% */
+  padding-left: 1.3rem;
+  padding-top: .5rem;
+}
+
+.mirofigma {
+  margin-top: 1.88rem;
+  max-width: 17rem;
+  max-height: 8rem;
+  border-radius: 0.625rem;
+}
+
+.research-link{
+  text-decoration: none;
+}
+
+.title-container-nus{
+  margin: 5rem;
+  margin-top: 5rem !important;
+  display: flex;
+}
+
+.title-text-nus h1{
+  margin-top: 3rem;
+  margin-right: 20rem;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal
+  }
+
+.title-text-nus p {
+  max-width: 30rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2rem; /* 133.333% */
+  letter-spacing: -0.03rem;
+}
+
+.title-text-nus h2{
+  color: var(--blue-blue-600, #3676E0);
+  font-size: 2rem;
+  margin-bottom: -.5rem;
+}
+
+.title-text-nus h3{
+  padding-top: 2rem;
+  margin-bottom: -1rem;
+  font-size: 2rem;
+}
+
+.title-text-nus h4{
+  font-size: 1.5rem;
+  color: var(--blue-blue-600, #3676E0);
+}
+
+.underline-nus {
+  margin-left: -2.3rem;
+}
+
+.nus-pic-title {
+  margin-left: -2rem;
+  max-width: 33rem;
+  max-height: 33rem;
+  margin-top: 0rem;
+}
+
+.second-pic-nus {
+  display:flex;
+  margin: 5rem;
+  margin-top: 10rem !important;
+}
+
+.second-pic-nus-text {
+  margin-right: 10rem;
+  width: 50rem;
+}
+
+.second-pic-nus-text h1{
+  margin-bottom: -.1rem;
+}
+
+
+.second-pic-nus h1{
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cover-nus-pic {
+  max-width: 45rem;
+  max-height: 40rem;
+}
+
+.second-pic-nus-text p {
+  font-size: 1.5rem;
+  max-width: 50rem !important;
+}
+
+.second-pic-nus-text-bottom-container{
+  display: flex;
+  margin-top: 5rem;
+}
+
+.second-pic-nus-text-bottom-container h1 {
+  font-size: 2rem;
+}
+
+.second-pic-nus-text-bottom-container h2 {
+  margin-left: 10rem;
+  font-size: 2rem;
+}
+
+.line-3{
+  margin-top: 4rem;
+  margin-left: -5rem;
+}
+
+.problem-statement-nus{
+  margin: 5rem;
+  text-align: center;
+}
+
+.problem-statement-nus h1{
+  font-size: 3rem;
+}
+
+.problem-statement-nus p {
+  font-size: 1.5rem;
+  margin-top: 1rem !important;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.design-overview-nus{
+  margin: 5rem;
+}
+
+.design-overview-nus h1{
+  margin-top: 10rem;
+  font-size: 3rem;
+  margin-bottom: -.2rem;
+}
+
+.design-container-nus{
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.understand-nus, .define-nus, .ideate-nus{
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+}
+
+.understand-nus-pic {
+  max-width: 11rem;
+  max-height: 11rem;
+}
+
+.define-nus-pic{
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.ideate-nus-pic{
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.design-container-nus-row2{
+  margin-top: -4rem;
+  display: flex;
+  padding: 5rem;
+  margin-left: 6rem;
+}
+
+.design-nus-pic, .test-nus-pic{
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.design-nus{
+  margin-left: 12rem;
+  text-align: center;
+}
+
+.test-nus{
+  margin-left: 18rem;
+  text-align: center;
+}
+
+.research-nus-container{
+  margin: 5rem;
+}
+
+.research-nus-container h1{
+  font-size: 3rem;
+  margin-bottom: -.2rem;
+}
+
+.research-nus-container p{
+  font-size: 1.5rem;
+}
+
+.research-nus-target-p{
+  width: 40rem;
+}
+
+.target-audience-pic{
+  max-width: 20rem;
+  max-height: 20rem;
+  float: right;
+  margin-right: 10rem;
+  margin-top: -35rem;
+}
+
+.qualitative-research-nus{
+  margin: 5rem;
+}
+
+.qualitative-research-nus h1{
+  font-size: 3rem;
+  margin-bottom: -.2rem;
+}
+.qualitative-research-nus h2{
+  font-size: 2rem;
+}
+
+.qualitative-research-nus p {
+  font-size: 1.5rem;
+  margin-right: 10rem;
+}
+
+.observation-nus h2{
+  font-size: 2rem;
+}
+
+.observation-nus {
+  margin-top: 3rem;
+}
+
+.observation-nus-container-1, .observation-nus-container-2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trust-nus h2, .commun-nus h2, .adv-nus h2, .ineff-nus h2{
+  color:#3676E0
+}
+
+.trust-nus, .commun-nus, .adv-nus, .ineff-nus {
+  max-width: 30rem;
+}
+
+.trust-nus li{
+  font-size: 1.3rem;
+}
+
+.commun-nus li{
+  font-size: 1.3rem;
+}
+
+.adv-nus li{
+  font-size: 1.3rem;
+}
+
+.ineff-nus li{
+  font-size: 1.3rem;
+}
+
+.user-persona-nus{
+  margin: 5rem;
+  display:flex;
+}
+
+.rectangle-persona{
+  width: 30rem;
+  height: 42rem;
+  background: var(--blue-blue-50, #EBF3FE);
+  border-radius: 1rem;
+}
+
+.persona-nus{
+  max-width:20rem;
+  max-height: 20rem;
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+
+.persona-text-nus{
+  display:flex;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.persona-text-nus h1{
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
+.persona-text-nus p{
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.rectangle-1-persona{
+  margin: 2rem;
+  margin-top: 0rem !important;
+  border-radius: 1rem;
+  width:20rem;
+  height: 20rem;
+  background: var(--blue-blue-50, #EBF3FE);
+}
+
+.claire-persona-nus{
+  margin-left: 3rem;
+  max-width: 80rem;
+  max-height: 80rem;
 }
