@@ -1,0 +1,600 @@
+.title-container-nus{
+    margin: 5rem;
+    margin-top: 5rem !important;
+    display: flex;
+  }
+  
+  
+  .title-text-nus h1{
+    width: 35rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+    
+    }
+  
+  .title-text-nus p {
+    max-width: 30rem;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2rem; /* 133.333% */
+    letter-spacing: -0.03rem;
+  }
+  
+  .title-text-nus h2{
+    color: var(--blue-blue-600, #3676E0);
+    font-size: 2rem;
+    margin-bottom: -.5rem;
+  }
+  
+  .title-text-nus h3{
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+    font-size: 2rem;
+  }
+  
+  .title-text-nus h4{
+    font-size: 1.5rem;
+    color: var(--blue-blue-600, #3676E0); 
+    margin-bottom:-1rem;
+  }
+  
+  .underline-nus {
+    margin-left: 0rem;
+  }
+  
+  .nus-pic-title {
+    max-width: 50rem;
+    max-height: 40rem;
+  }
+  
+  .second-pic-nus {
+    display:flex;
+    margin: 5rem;
+    margin-top: 10rem !important;
+  }
+  
+  .second-pic-nus-text {
+    margin-right: 10rem;
+    width: 50rem;
+  }
+  
+  .second-pic-nus-text h1{
+    margin-bottom: -.1rem;
+  }
+  
+  
+  .second-pic-nus h1{
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .cover-nus-pic {
+    max-width: 45rem;
+    max-height: 40rem;
+  }
+  
+  .second-pic-nus-text p {
+    font-size: 1.5rem;
+    max-width: 50rem !important;
+  }
+  
+  .second-pic-nus-text-bottom-container{
+    display: flex;
+    margin-top: 5rem;
+  }
+  
+  .second-pic-nus-text-bottom-container h1 {
+    font-size: 2rem;
+  }
+  
+  .second-pic-nus-text-bottom-container h2 {
+    margin-left: 10rem;
+    font-size: 2rem;
+  }
+  
+  .line-3{
+    margin-top: 4rem;
+    margin-left: -5rem;
+  }
+  
+  .problem-statement-nus{
+    margin: 5rem;
+    text-align: center;
+  }
+  
+  .problem-statement-nus h1{
+    font-size: 3rem;
+  }
+  
+  .problem-statement-nus p {
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  
+  .design-overview-nus{
+    margin: 5rem;
+  }
+  
+  .design-overview-nus h1{
+    margin-top: 10rem;
+    font-size: 3rem;
+    margin-bottom: -.2rem;
+  }
+  
+  .design-container-nus{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+  }
+  
+  .understand-nus, .define-nus, .ideate-nus{
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  
+  }
+  
+  .understand-nus-pic {
+    max-width: 11rem;
+    max-height: 11rem;
+  }
+  
+  .define-nus-pic{
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  
+  .ideate-nus-pic{
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  
+  .design-container-nus-row2{
+    margin-top: -4rem;
+    display: flex;
+    padding: 5rem;
+    margin-left: 6rem;
+  }
+  
+  .design-nus-pic, .test-nus-pic{
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  
+  .design-nus{
+    margin-left: 12rem;
+    text-align: center;
+  }
+  
+  .test-nus{
+    margin-left: 18rem;
+    text-align: center;
+  }
+  
+  .research-nus-container{
+    margin: 5rem;
+  }
+  
+  .research-nus-container h1{
+    font-size: 3rem;
+    margin-bottom: -.2rem;
+  }
+  
+  .research-nus-container p{
+    font-size: 1.5rem;
+  }
+  
+  .research-nus-target-p{
+    width: 40rem;
+  }
+  
+  .target-audience-pic{
+    max-width: 20rem;
+    max-height: 20rem;
+    float: right;
+    margin-right: 10rem;
+    margin-top: -35rem;
+  }
+  
+  .qualitative-research-nus{
+    margin: 5rem;
+  }
+  
+  .qualitative-research-nus h1{
+    font-size: 3rem;
+    margin-bottom: -.2rem;
+  }
+  .qualitative-research-nus h2{
+    font-size: 2rem;
+  }
+  
+  .qualitative-research-nus p {
+    font-size: 1.5rem;
+    margin-right: 10rem;
+  }
+  
+  .observation-nus h2{
+    font-size: 2rem;
+  }
+  
+  .observation-nus {
+    margin-top: 3rem;
+  }
+  
+  .observation-nus-container-1, .observation-nus-container-2{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .trust-nus h2, .commun-nus h2, .adv-nus h2, .ineff-nus h2{
+    color:#3676E0
+  }
+  
+  .trust-nus, .commun-nus, .adv-nus, .ineff-nus {
+    max-width: 30rem;
+  }
+  
+  .trust-nus li{
+    font-size: 1.3rem;
+  }
+  
+  .commun-nus li{
+    font-size: 1.3rem;
+  }
+  
+  .adv-nus li{
+    font-size: 1.3rem;
+  }
+  
+  .ineff-nus li{
+    font-size: 1.3rem;
+  }
+  
+  .user-persona-nus{
+    margin: 5rem;
+    display:flex;
+  }
+  
+  .rectangle-persona{
+    width: 30rem;
+    height: 42rem;
+    background: var(--blue-blue-50, #EBF3FE);
+    border-radius: 1rem;
+  }
+  
+  .persona-nus{
+    max-width:20rem;
+    max-height: 20rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+  
+  .persona-text-nus{
+    display:flex;
+    align-items: center;
+    margin-left: 4rem;
+  }
+  
+  .persona-text-nus h1{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
+  
+  .persona-text-nus p{
+    font-size: 1.5rem;
+    color: gray;
+  }
+  
+  .rectangle-1-persona{
+    margin: 2rem;
+    margin-top: 0rem !important;
+    border-radius: 1rem;
+    width:20rem;
+    height: 20rem;
+    background: var(--blue-blue-50, #EBF3FE);
+  }
+  
+  .claire-persona-nus{
+    margin-left: 3rem;
+    max-width: 80rem;
+    max-height: 80rem;
+  }
+  
+  .storyboard-nus{
+    margin-left: 5rem;
+    align-items: center;
+    display:flex;
+  }
+  
+  .storyboard-nus-heading h1{
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .line-storyboard{
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .storyboard-nus-pic{
+    border-radius: 1rem;
+    max-width: 40rem;
+    max-height: 40rem;
+    margin-right: 2rem;
+  }
+  
+  .storyboard-nus-pic2{
+    border-radius: 1rem;
+    max-width: 39rem;
+    max-height: 39rem;
+  }
+  
+  .key-user-tasks-nus{
+    margin: 5rem;
+  }
+  
+  .key-user-tasks-nus h1{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+  }
+  
+  .container-key-user-tasks{
+    margin-top: 5rem;
+  }
+  
+  .connection-pic-nus{
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .connection-text-nus{
+    margin-top: 7rem;
+    padding-left: 10rem;
+    text-align: center;
+  }
+
+  .img-user-tasks-container{
+    max-width: 70rem;
+    max-height: 70rem;
+  }
+  
+  .connection-text-nus h1{
+    color:#3676E0;
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .connection-text-nus p{
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .scheduling-text-nus{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .schedule-pic{
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .container-connection{
+    display: flex;
+    margin-bottom: 5rem;
+  }
+  
+  .schedule-pic{
+    float: right;
+    margin-left: 8rem;
+  }
+  
+  .schedule-text{
+    text-align: center;
+    margin-top: 7rem;
+    width: 35rem;
+  }
+  
+  .schedule-text h1{
+    color:#3676E0;
+    font-size: 2rem;
+  }
+  
+  .schedule-text p {
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .feedback-container-nus{
+    display: flex;
+    margin-top: 5rem;
+  }
+  
+  .feedback-pic-nus{
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .feedback-text-nus{
+    margin-top: 7rem;
+    text-align: center;
+    padding-left: 10rem;
+  }
+  
+  .feedback-text-nus h1{
+    color:#3676E0;
+    font-size: 2rem;
+  }
+  
+  .feedback-text-nus p{
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .low-fi-nus {
+    margin: 5rem;
+  }
+  
+  .low-fi-nus h1{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+  }
+  
+  .wireframe-pic-1{
+    max-width: 60rem;
+    max-height: 50rem;
+    padding-bottom: 5rem;
+  }
+  
+  .wireframe-pic-2{
+    max-width: 60rem;
+    max-height: 80rem;
+  }
+  
+  .wireframe-pic{
+    margin-left: 10rem;
+    margin-top: 5rem;
+  }
+  
+  .low-fi-nus-pt1{
+    margin-top: -1rem;
+    max-width: 80rem;
+    max-height:100rem;
+    margin-left: 10rem;
+  }
+  
+  .hi-fi-first{
+    margin: 5rem;
+  }
+  
+  .hi-fi-first h1{
+    font-size: 3rem;
+    margin-bottom: -.2rem;
+  }
+  
+  .user-testing{
+    margin: 5rem;
+  }
+  
+  .user-testing h1{
+    font-size: 3rem;
+    margin-bottom: -.2rem;
+  }
+  
+  .container-effective-text{
+    display: flex;
+  }
+  
+  .container-effective-text h3{
+    width: 30rem;
+    margin-right: 10rem;
+  }
+  
+  .container-effective-text p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  
+  .satisfaction-container{
+    display: flex;
+  }
+  
+  .satisfaction-container-text h1{
+    font-size: 2rem;
+  }
+  .effective-pic{
+    max-width: 30rem;
+    max-height: 30rem;
+    border-radius: 1rem;
+  }
+  
+  .satisimg{
+    max-width: 30rem;
+    max-height: 30rem;
+    border-radius: 1rem;
+  }
+  
+  .satis-container{
+    margin-top: 5rem;
+    display:flex;
+  }
+  
+  .satis-text-container{
+    width: 30rem;
+    margin-right: 10rem;
+  }
+  
+  .satis-text-container p{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+  
+  
+  .effic-container{
+    margin-top: 5rem;
+    display: flex;
+  }
+  
+  .effic-img{
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-right: 10rem;
+    border-radius: 1rem;
+  }
+  
+  .user-testing-conclusion{
+    margin-top: 5rem;
+  }
+  
+  .high-fidelity-nus{
+    margin: 0rem;
+  }
+  
+  .high-fidelity-nus h1{
+    font-size: 3rem;
+    margin-bottom:-.2rem;
+  }
+  
+  .hi-fi-pic1{
+    max-width: 70rem;
+    max-height: 60rem;
+  }
+  
+  .hi-fi-pic-all{
+    margin-left: 10rem;
+    max-width: 90rem;
+    max-height: 100rem;
+  
+  }
+  
+  .hi-fi-all-container{
+    margin: 5rem;
+  }
+  
+  .hi-fi-all-container h1{
+    margin-bottom:-.2rem;
+  }
+  
+  .nus-conclusion-container{
+    margin: 5rem;
+  }
+  
+  .nus-conclusion-container h1{
+    font-size: 2.5rem
+  }
+  
+  .hi-fi-screen-text{
+    margin-top: 10rem;
+    margin-left: 5rem;
+  }
+  

@@ -1,0 +1,21 @@
+.fade-in-container {
+    opacity: 0; /* Start with element hidden */
+    transition: opacity 1s ease-in-out; /* Add a smooth transition */
+    max-width: 70rem; /* Adjust container width */
+    max-height: 60rem;
+    border-radius: 1rem;
+  }
+
+  
+  .fade-in-visible {
+    opacity: 1; /* When this class is added, the image will fade in */
+  }
+
+  /* Add a class to apply fade-out effect */
+.fade-out-hidden {
+    opacity: 0; /* When this class is added, the element will fade out */
+  }
+
+.rounded-image {
+    border-radius: 1rem !important;
+  }
