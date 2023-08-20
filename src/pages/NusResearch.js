@@ -9,7 +9,7 @@ import ideate from '../img/ideate-nus.png'
 import design from '../img/design-nus.svg'
 import test from '../img/test-nus.svg'
 import target from '../img/target-audience.svg'
-import persona from '../img/Light.svg'
+import persona from '../img/fassler.png'
 import storyboard from '../img/Storyboard 1.svg'
 import storyboard2 from '../img/Storyboard 2.svg'
 import connection from '../img/connection-pic.svg'
@@ -29,6 +29,20 @@ import nustitlepic from '../img/nus-title-picture.svg'
 import ImageFade from '../components/ImageFade.js'
 import useScrollFadeIn from "../components/ScrollEffect.js"; 
 import '../components/ImageFade.css'
+import ProgressBar from "../components/ProgressBar.js";
+import "../components/ProgressBar.css"; // Import the CSS file
+import text from '../img/text.svg';
+import arrow from '../img/Arrow.svg';
+import benjamin from '../img/benjamin.png'
+
+
+function scrollToSection(event, sectionId) {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
 
 export default function Nusresearch () {
     const imageRefStar = useScrollFadeIn()
@@ -40,9 +54,10 @@ export default function Nusresearch () {
     const blueColor = "var(--blue-blue-600, #3676E0)";
 return  (
     <div>
+        <ProgressBar />
     <div className="title-container-nus">
         <div className="title-text-nus">
-        <h1>Researched and Found @NUS</h1>
+        <h1>Researched and Found</h1>
         <p>Improving Undegraduate Research at the National University of Singapore </p>
         <h2>UX Case Study</h2>
         <img src={underline} className="underline-nus" alt="underline"/>
@@ -97,29 +112,43 @@ return  (
      <img src={line} className="line" alt="line" />
      <div className="design-container-nus">
         <section className="understand-nus">
+        <a href="#section1" onClick={(e) => scrollToSection(e, "section1result")}>
         <img src={understandnus} className="understand-nus-pic" alt="pic-2" />
+        </a>
         <p>User Research</p>
         <p>User Interviews</p>
+        <div className="textnarrow">
+     <img src={arrow} className="arrownus" alt="arrow"/>
+     <img src={text} className="text-with-arrow" alt="text"/>
+     </div>
         </section>
         <section className="define-nus">
+        <a href="#section2" onClick={(e) => scrollToSection(e, "section2result")}>
         <img src={define} className="define-nus-pic" alt="pic-2" />
+        </a>
         <p>User Personas</p>
         <p>Scenarios and Storyboards</p>
         </section>
         <section className="ideate-nus">
+        <a href="#section3" onClick={(e) => scrollToSection(e, "section3result")}>
         <img src={ideate} className="ideate-nus-pic" alt="pic-2" />
+        </a>
         <p>Identify Key User Tasks</p>
         </section>
      </div>
      <div className="design-container-nus-row2">
         <section className="design-nus">
+        <a href="#section4" onClick={(e) => scrollToSection(e, "section4result")}>
         <img src={design} className="design-nus-pic" alt="pic-2" />
+        </a>
         <p>Wireframes</p>
         <p>Lo-Fi & Hi-Fi Designs</p>
         <p>Prototype</p>
         </section>
         <section className="test-nus">
+            <a href="#section5" onClick={(e) => scrollToSection(e, "section5result")}>
             <img src={test} className="test-nus-pic" alt="pic-2"/>
+            </a>
             <p>Feedback</p>
             <p>Conclusions</p>
             <p>Future Concept</p>
@@ -127,8 +156,9 @@ return  (
     </div>
      </section>
 
-    <section className="research-nus-container">
+    <section className="research-nus-container" id="section1result">
         <h1>Target Audience</h1>
+       
         <img src={line} className="line" alt="line" />
         <section className="research-nus-target-p">
         <p>In order to obtain a deeper understanding of 
@@ -212,17 +242,35 @@ return  (
             </div>
             </div>
     </section>
-    <img src={persona} className="claire-persona-nus" alt="persona-pic"/>
-    <heading className="storyboard-nus-heading">
+    <div id="section2result">
+        <div className="persona-text-nus">
+        <h1>User Personas</h1>
+        <img src={line} className="line" alt="line" />
+        <p>In our user personas, we created two specific ones. One to 
+            represent the Researcher, and one to represent the Participant so
+            we are able to look at both sides of using the application. Claire 
+            represents the pain points and goals of a potential researcher, and Ben 
+            represents the vice versa for participants.
+        </p>
+        </div>
+        <div className="persona-container">
+   <img src={persona} className="claire-persona-nus" alt="persona-pic"/>
+    <img src={benjamin} className="ben-persona-nus" alt="persona-pic"/>
+    </div> 
+    </div>
+    <heading className="storyboard-nus-heading" >
     <h1>Storyboards</h1>
     <img src={line} className="line-storyboard" alt="line" />
+    <p>To go along with the personas we created, we also made two 
+        different storyboards for Researchers and Participants.
+    </p>
     </heading>
     <div className="storyboard-nus">
         <img src={storyboard} className="storyboard-nus-pic" alt="storyboard"></img>
         <img src={storyboard2} className="storyboard-nus-pic2" alt="storyboard"></img>
     </div>
     <div className="key-user-tasks-nus">
-        <h1>Key User Tasks</h1>
+        <h1 id="section3result">Key User Tasks</h1>
         <img src={line} className="line" alt="line" />
         <h2>After going through our user research, personas and storyboards, we
             were able to identify 3 key user tasks for this project.</h2>
@@ -276,7 +324,7 @@ return  (
         </section>
     </div>
     <section className="low-fi-nus">
-        <h1>Low Fidelity Wireframes</h1>
+        <h1 id="section4result">Low Fidelity Wireframes</h1> 
         <img src={line} className="line" alt="line" />
         <section className="wireframe-pic">
         <img src={wireframe1} className="wireframe-pic-1" alt="wf-1"/>
@@ -290,7 +338,7 @@ return  (
         <img src={Lowfidelity} className="low-fi-nus-pt1" alt="lowfi"/>
     </section>
     <section className="user-testing">
-        <h1>User Testing</h1>
+        <h1 id="section5result">User Testing</h1>
         <img src={line} className="line" alt="line" />
         <h2>After the completion of our hi-fidelity prototype, we decided to 
             conduct a round of user testing in order to evaluate our product on 

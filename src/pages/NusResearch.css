@@ -10,8 +10,7 @@
     margin-right: 2rem;
     font-size: 3rem;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal
+    margin-bottom: -.5rem;
     
     }
   
@@ -26,6 +25,7 @@
   
   .title-text-nus h2{
     color: var(--blue-blue-600, #3676E0);
+    font-weight: 600;
     font-size: 2rem;
     margin-bottom: -.5rem;
   }
@@ -33,13 +33,15 @@
   .title-text-nus h3{
     padding-top: 2rem;
     margin-bottom: -1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
   
   .title-text-nus h4{
+    font-weight: 600;
     font-size: 1.5rem;
     color: var(--blue-blue-600, #3676E0); 
-    margin-bottom:-1rem;
+    margin-bottom:-1.5rem;
   }
   
   .underline-nus {
@@ -48,7 +50,7 @@
   
   .nus-pic-title {
     max-width: 50rem;
-    max-height: 40rem;
+    max-height: 50rem;
   }
   
   .second-pic-nus {
@@ -75,8 +77,8 @@
   }
   
   .cover-nus-pic {
-    max-width: 45rem;
-    max-height: 40rem;
+    max-width: 40rem;
+    max-height: 35rem;
   }
   
   .second-pic-nus-text p {
@@ -118,9 +120,29 @@
     margin-left: 7rem;
     margin-right: 7rem;
   }
-  
+
   .design-overview-nus{
     margin: 5rem;
+  }
+
+  .textnarrow{
+    max-width:10rem;
+    max-height: 10rem;
+    margin-left: -15rem;
+    margin-bottom: -15rem;
+    margin-top: -12rem;
+  }
+
+  .arrownus{
+    margin-left: 10rem;
+    max-height: 7rem;
+    max-width: 5rem;
+  }
+
+  .text-with-arrow{
+    max-width: 10rem;
+    max-height: 5rem;
+    margin-left: 5rem;
   }
   
   .design-overview-nus h1{
@@ -134,6 +156,15 @@
     justify-content: space-between;
     padding: 5rem;
   }
+
+  .design-container-nus p{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1rem; /* 140% */
+    letter-spacing: -0.025rem;
+    color: var(--gray-gray-700, #5E6B81);
+  }
   
   .understand-nus, .define-nus, .ideate-nus{
     text-align: center;
@@ -143,6 +174,7 @@
   }
   
   .understand-nus-pic {
+    margin-top: .1rem;
     max-width: 11rem;
     max-height: 11rem;
   }
@@ -168,6 +200,15 @@
     max-width: 10rem;
     max-height: 10rem;
   }
+
+  .design-container-nus-row2{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1rem; /* 140% */
+    letter-spacing: -0.025rem;
+    color: var(--gray-gray-700, #5E6B81);
+  }
   
   .design-nus{
     margin-left: 12rem;
@@ -175,7 +216,7 @@
   }
   
   .test-nus{
-    margin-left: 18rem;
+    margin-left: 15rem;
     text-align: center;
   }
   
@@ -195,13 +236,14 @@
   .research-nus-target-p{
     width: 40rem;
   }
+
   
   .target-audience-pic{
     max-width: 20rem;
     max-height: 20rem;
     float: right;
-    margin-right: 10rem;
-    margin-top: -35rem;
+    margin-right: 8rem;
+    margin-top: -28rem;
   }
   
   .qualitative-research-nus{
@@ -257,55 +299,34 @@
   .ineff-nus li{
     font-size: 1.3rem;
   }
-  
-  .user-persona-nus{
-    margin: 5rem;
-    display:flex;
+
+  .persona-container{
+    display: flex
   }
-  
-  .rectangle-persona{
-    width: 30rem;
-    height: 42rem;
-    background: var(--blue-blue-50, #EBF3FE);
-    border-radius: 1rem;
+
+  .ben-persona-nus{
+    max-width: 40rem;
+    max-height: 60rem;
   }
-  
-  .persona-nus{
-    max-width:20rem;
-    max-height: 20rem;
-    margin-left: 4rem;
-    margin-top: 3rem;
-  }
-  
-  .persona-text-nus{
-    display:flex;
-    align-items: center;
-    margin-left: 4rem;
-  }
-  
+
   .persona-text-nus h1{
-    font-size: 1.5rem;
-    padding-right: 1rem;
+    font-size: 3rem;
+    margin-bottom:-.2rem;
   }
-  
+
   .persona-text-nus p{
     font-size: 1.5rem;
-    color: gray;
+    margin-right: 6rem;
   }
-  
-  .rectangle-1-persona{
-    margin: 2rem;
-    margin-top: 0rem !important;
-    border-radius: 1rem;
-    width:20rem;
-    height: 20rem;
-    background: var(--blue-blue-50, #EBF3FE);
+
+  .persona-text-nus{
+    margin-left:5rem;
   }
   
   .claire-persona-nus{
     margin-left: 3rem;
-    max-width: 80rem;
-    max-height: 80rem;
+    max-width: 40rem;
+    max-height: 60rem;
   }
   
   .storyboard-nus{

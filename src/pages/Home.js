@@ -7,6 +7,7 @@ import project1 from '../img/project1.svg'
 import orange from '../img/orange.svg'
 import footer from '../components/footer.js'
 import { Link } from 'react-router-dom';
+import '../components/BouncingArrow.css'
 
 export default function Home () {
 return <div className="home">
