@@ -8,7 +8,7 @@ export default function NavBar (){
         </Link>
         <ul className="nav-font">
             <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/skills">Skills</CustomLink> 
+          {/*   <CustomLink to="/skills">Skills</CustomLink> */}
             <CustomLink to="/projects">Projects</CustomLink>
           {/*  <CustomLink to="/more">More</CustomLink>*/}
         </ul>

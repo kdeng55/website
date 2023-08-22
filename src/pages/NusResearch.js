@@ -1,5 +1,5 @@
 import React from "react";
-import './NusResearch.css'
+import './Nusresearch.css'
 import graphite from '../img/large1.svg'
 import underline from '../img/underline.svg'
 import line from '../img/line.svg'
@@ -17,7 +17,7 @@ import schedule from '../img/schedule.svg'
 import star from '../img/star.svg'
 import wireframe1 from '../img/wireframe1.svg'
 import wireframe2 from '../img/wireframe2.svg'
-import Lowfidelity from '../img/Low-fidelity.svg'
+import Lowfidelity from '../img/low-fidelity-9.svg'
 import effective from '../img/effectiveness.png'
 import satisifaction from '../img/satisfaction.png'
 import efficiency from '../img/efficiency.png'
@@ -34,6 +34,7 @@ import "../components/ProgressBar.css"; // Import the CSS file
 import text from '../img/text.svg';
 import arrow from '../img/Arrow.svg';
 import benjamin from '../img/benjamin.png'
+import footer from '../components/footer.js'
 
 
 function scrollToSection(event, sectionId) {
@@ -248,23 +249,41 @@ return  (
         <img src={line} className="line" alt="line" />
         <p>In our user personas, we created two specific ones. One to 
             represent the Researcher, and one to represent the Participant so
-            we are able to look at both sides of using the application. Claire 
-            represents the pain points and goals of a potential researcher, and Ben 
-            represents the vice versa for participants.
+            we are able to look at both sides of using the application. 
+        </p>
+        <p>
+        Fassler is a NUS researcher who is frustrated with her lack of participants for her research lab
+        and wants an easier and more centralized way to source participants. She's currently bouncing between a 
+        couple apps and sometimes have difficulty contacting her participants. 
+        </p>
+        <p>Ben represents a research participant who does studies a few times a semester. He usually
+            hears of research opportunities through various messaging apps and word of mouth. He's looking for
+            an easier and more trustworthy way to contact and message the researchers.
         </p>
         </div>
         <div className="persona-container">
-   <img src={persona} className="claire-persona-nus" alt="persona-pic"/>
+   <img src={persona} className="fassler-persona-nus" alt="persona-pic"/>
     <img src={benjamin} className="ben-persona-nus" alt="persona-pic"/>
     </div> 
     </div>
-    <heading className="storyboard-nus-heading" >
+    <div className="storyboard-nus-heading" >
     <h1>Storyboards</h1>
-    <img src={line} className="line-storyboard" alt="line" />
-    <p>To go along with the personas we created, we also made two 
-        different storyboards for Researchers and Participants.
+    <img src={line} className="line" alt="line" />
+    <p>After creating the user personas, we did some brainstorming in order 
+        to visualize each user's journey throughout the application. In turn with 
+        the personas, we created two storyboards--one for a researcher and one for 
+        a participant in order to document the user process.
     </p>
-    </heading>
+    <p>The researcher's initial flow was pretty simple: Submit a research posting through 
+        the app's custom form with all the necessary information such as title, description, pay and
+        target audience. Once submitting, the researcher would reach a confirmation screen verifying their
+        posting.
+    </p>
+    <p>The participant's flow was also initially simple: Find a research posting by searching 
+        and filtering the postings until they find a post that is relevant or interesting to them. After,
+        they click on the post in order to participate.
+    </p>
+    </div>
     <div className="storyboard-nus">
         <img src={storyboard} className="storyboard-nus-pic" alt="storyboard"></img>
         <img src={storyboard2} className="storyboard-nus-pic2" alt="storyboard"></img>
@@ -272,8 +291,13 @@ return  (
     <div className="key-user-tasks-nus">
         <h1 id="section3result">Key User Tasks</h1>
         <img src={line} className="line" alt="line" />
-        <h2>After going through our user research, personas and storyboards, we
-            were able to identify 3 key user tasks for this project.</h2>
+        <p>Following reviewing our user research, personas and storyboards, we wanted 
+            to narrow down on specific tasks to focus on. The process of defining these tasks
+            were through reviewing our survey and interview responses and find the most 
+            prevalent struggles and aspirations of our target user group. Many desired a centralized
+            platform for all research communication, as well as a safe and trustworthy way to participate
+            in research studies with trustworthy researchers. Thus, we were able to identify the following 3 key user tasks for this project that we wanted to focus on
+            defining and implementing into our application.</p>
         <section className="container-key-user-tasks">
             <div className="container-connection">
                     <div className="fade-in-container" ref={imageRefConnection}>
@@ -334,10 +358,24 @@ return  (
     <section className="hi-fi-first">
         <h1>High Fidelity Prototypes - Variant One</h1>
         <img src={line} className="line" alt="line" />
-        <h2>After our low fidelity wireframes, we decided to assemble a rough, first draft of a high fidelity prototype. </h2>
+        <p>After our low fidelity wireframes, we decided to assemble a rough, first draft of a high fidelity prototype 
+            based on our wireframes. Bringing it from wireframe to prototype, we chose to incorporate the NUS
+            colors, orange and blue, as the main colors for our application. Designing the 
+            "post research" page was the most difficult; it was hard to determine how much 
+            information to add to the page without overcrowding it for the user. 
+        </p>
+        <p>For the navbar, we decided to include four elements: research opportunities, chats, action to post,
+            notifications and the user's profile. We theorized that these would be the
+            most important elements for a user while using the application.
+        </p>
+        <p>In addition, we decided to add a feature to the research postings page: a meter to 
+            measure if the user fits the target audience based on the criteria the researcher set, and the
+            user's tags and information. Given the meter, it would allow users to 
+            easily identify which studies fit their profile easily without checking each individual study.
+        </p>
         <img src={Lowfidelity} className="low-fi-nus-pt1" alt="lowfi"/>
     </section>
-    <section className="user-testing">
+    <div className="user-testing">
         <h1 id="section5result">User Testing</h1>
         <img src={line} className="line" alt="line" />
         <h2>After the completion of our hi-fidelity prototype, we decided to 
@@ -351,7 +389,8 @@ return  (
             number of criteria for each user task:</h3>
             <p> 1) Posting Research </p>
             <p> 2) Scheduling a Meeting</p>
-            <p> 3) Leave Ratings for Participant and Researcher</p>
+            <p> 3) Leave Rating for Participant </p>
+            <p> 4) Leave Rating for Researcher</p>
             </div>
             <img src={effective} className="effective-pic" alt="pic-effect"/>
             
@@ -360,11 +399,16 @@ return  (
             <div className="satisfaction-container-text">
             <h1>Evaluation</h1>
             <p>We decided to use two baselines in order to measure 
-                the users experience and success with our app. 
+                the users experience and success with our app: Satisfaction and Effictiveness/Efficiency. We conducted our user studies in the fashion of contextual inquiries and surveys in order to gain
+                a perspective of the user's flow and thoughts while navigating through the application.</p>
+            <p>We chose contextual inquiries because we wanted an in-depth understanding of how the different personas from our target audiences interacted with research studies and each other.
+                During the contextual inquiries, we asked the participants to engage in the think aloud method so we could 
+                understand their thoughts and questions while completing the task. Each user was asked to
+                complete all four tasks.</p>
+            <p>After each task, we asked the participants to fill out a post-task questionaire, in addition to 
+                a post-completion survey. We disseminated these surveys in hopes of seeing any pain points or misconceptions
+                in any one of the tasks, and get an overall review of our current prototype's usability.
             </p>
-            <p>We conducted our user studies in the fashion of contextual inquiries and surveys.</p>
-            <p>We chose contextual inquiries because we wanted an in-depth understanding of how the different personas from our target audiences interacted with research studies and each other. </p>
-            <p>We chose surveys because we wanted to gain a better understanding of users' motivators and deterrents of participation in surveys and current frustrations that researchers face and improvements that would further their ease of access.</p>
             <section className="satis-container">
             <div className="satis-text-container">
             <h2>Satisfaction</h2>
@@ -377,10 +421,10 @@ return  (
             </section>
             <div className="effic-container">
                 <section className="effec-img-container">
-                <p>Post-task completion timings and success indicators </p>
                 <img src={efficiency} className="effic-img" alt="efficiency"/>
+                <p className="completion-p">Post-task completion timings and success indicators </p>
                 </section>
-                <div className="effic-img">
+                <div className="effic-img-text">
                 <h2>Effectiveness and Efficiency</h2>
                 <p>However, through our user study, we found that our efficiency and effectiveness was lacking.
                     Many of the participants were not able to complete some tasks within one and a half 
@@ -391,12 +435,14 @@ return  (
                 </div>
             </div>
         </div>
-        <footer className="user-testing-conclusion">
-            <h2>Given these suggestions and comments, we embarked on revising our prototype to 
-                accomodate these shortcomings.
-            </h2>
-        </footer>
-    </section>
+        <div className="user-testing-conclusion">
+            <p>Given these suggestions and comments, we embarked on revising our prototype to 
+                accomodate these shortcomings. In our final prototype we took these criticisms to 
+                mind and went forth and altering our product to be more intuitive, friendly 
+                and aesthetic.
+            </p>
+        </div>
+    </div>
     <section className="high-fidelity-nus">
         <div className="hi-fi-screen-text">
         <h1>High Fidelity Screens</h1>
@@ -441,10 +487,32 @@ return  (
         
     </section>
     <section className="nus-conclusion-container">
+        <div className="conclusion-heading">
         <h1>Key Takeaways</h1>
         <img src={line} className="line" alt="line" />
-    </section>
+        </div>
+        <div className="key-takeaways-text">
+            <p>The opportunity to work on this project with three other wonderful
+            UX designers was incredible and was a great first experience for me to 
+            enter the world of UI/UX. Guided by an amazing mentor, we were able to 
+            explore so many new concepts through brainstorming, researching, prototyping and testing.</p>
 
+            <p>While our current prototype is close from being perfect, the process of 
+                improvement and iteration was a grueling but rewarding journey. Time constraints
+                were a big factor, as we had deliverable deadlines, but through constant communication
+                and hard work, we were able to deliver the best product we could have. One of the hardest
+                parts was balancing the UI with the UX factor which is something that I am still
+                working to improve on. While usability is important, the interface design is also crucial a crucial
+                factor to keep balanced.
+            </p>
+            <p>If given more time to continue working on this project, the next step would be running 
+                more iterations of user studies and modifying, making sure the flow is easy and intuitive 
+                to understand for all users, as well as monitering for any risks or oversights in development.
+            </p>
+
+        </div>
+    </section>
+    {footer()}
     </div>
   );
 };

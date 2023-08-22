@@ -8,6 +8,7 @@ import orange from '../img/orange.svg'
 import footer from '../components/footer.js'
 import { Link } from 'react-router-dom';
 import '../components/BouncingArrow.css'
+import NusResearch from './Nusresearch.js'
 
 export default function Home () {
 return <div className="home">
@@ -36,14 +37,14 @@ return <div className="home">
             </div>
             <div class="container-rec">
                 <p>2023</p>
-                <Link to="/nusresearch" className='research-link'> 
-                <h1>Research, Improved. @NUS</h1> 
+                <Link to="/NusResearch" className="link-to-proj">
+                <h1>Researched and Found. @NUS</h1> 
                 </Link>
                 <p class="description2">UX Research and Design</p>
-                
-                <div class="rectangle"></div>
-                <Link to="/NusResearch">
+                <Link to="/NusResearch" className="link-to-proj">
+                <div class="rectangle">
                 <img src={project1} className="proj1" alt="proj1" />
+                </div>
                 </Link>
             </div>
         </div>

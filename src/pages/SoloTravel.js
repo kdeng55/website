@@ -1,0 +1,2 @@
+import './SoloTravel.css'
+

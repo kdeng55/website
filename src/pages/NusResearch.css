@@ -3,6 +3,11 @@
     margin-top: 5rem !important;
     display: flex;
   }
+
+.font-Inter{
+    font-family: 'Inter', sans-serif;
+    font-weight: 530;
+  }
   
   
   .title-text-nus h1{
@@ -55,7 +60,7 @@
   
   .second-pic-nus {
     display:flex;
-    margin: 5rem;
+    margin: 10rem;
     margin-top: 10rem !important;
   }
   
@@ -122,7 +127,7 @@
   }
 
   .design-overview-nus{
-    margin: 5rem;
+    margin: 10rem;
   }
 
   .textnarrow{
@@ -161,7 +166,7 @@
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 1rem; /* 140% */
+    
     letter-spacing: -0.025rem;
     color: var(--gray-gray-700, #5E6B81);
   }
@@ -170,7 +175,6 @@
     text-align: center;
     margin-left: 5rem;
     margin-right: 5rem;
-  
   }
   
   .understand-nus-pic {
@@ -193,7 +197,7 @@
     margin-top: -4rem;
     display: flex;
     padding: 5rem;
-    margin-left: 6rem;
+    margin-left: 0rem;
   }
   
   .design-nus-pic, .test-nus-pic{
@@ -221,7 +225,8 @@
   }
   
   .research-nus-container{
-    margin: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
   
   .research-nus-container h1{
@@ -230,24 +235,26 @@
   }
   
   .research-nus-container p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   
   .research-nus-target-p{
     width: 40rem;
   }
-
   
   .target-audience-pic{
     max-width: 20rem;
     max-height: 20rem;
     float: right;
-    margin-right: 8rem;
-    margin-top: -28rem;
+    margin-right: -5rem;
+    margin-top: -22rem;
   }
   
   .qualitative-research-nus{
-    margin: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
   }
   
   .qualitative-research-nus h1{
@@ -259,8 +266,7 @@
   }
   
   .qualitative-research-nus p {
-    font-size: 1.5rem;
-    margin-right: 10rem;
+    font-size: 1.3rem;
   }
   
   .observation-nus h2{
@@ -273,13 +279,18 @@
   
   .observation-nus-container-1, .observation-nus-container-2{
     display: flex;
+    gap: 5rem;
     justify-content: space-evenly;
   }
   
   .trust-nus h2, .commun-nus h2, .adv-nus h2, .ineff-nus h2{
     color:#3676E0
   }
-  
+
+  .ineff-nus {
+    margin-left: 2rem;
+  }
+
   .trust-nus, .commun-nus, .adv-nus, .ineff-nus {
     max-width: 30rem;
   }
@@ -301,7 +312,8 @@
   }
 
   .persona-container{
-    display: flex
+    display: flex;
+    margin-left: 8rem;
   }
 
   .ben-persona-nus{
@@ -309,42 +321,51 @@
     max-height: 60rem;
   }
 
-  .persona-text-nus h1{
-    font-size: 3rem;
-    margin-bottom:-.2rem;
-  }
-
-  .persona-text-nus p{
-    font-size: 1.5rem;
-    margin-right: 6rem;
-  }
-
-  .persona-text-nus{
-    margin-left:5rem;
-  }
-  
-  .claire-persona-nus{
-    margin-left: 3rem;
+  .fassler-persona-nus{
+    margin-left: -2rem;
     max-width: 40rem;
     max-height: 60rem;
   }
+
+  .persona-text-nus h1{
+    font-size: 3rem;
+    margin-bottom:-.2rem;
+    
+  }
+
+  .persona-text-nus p{
+    font-size: 1.3rem;
+  }
+
+
+  .persona-text-nus{
+    margin-right: 15rem !important;
+    margin-left: 15rem;
+    margin-bottom: 0rem;
+  }
+
+  .storyboard-nus-heading{
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 5rem;
+}
   
   .storyboard-nus{
-    margin-left: 5rem;
+    margin: 5rem;
     align-items: center;
     display:flex;
   }
-  
+
   .storyboard-nus-heading h1{
-    margin-left: 5rem;
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
-  
-  .line-storyboard{
-    margin-left: 5rem;
+
+  .storyboard-nus-heading p{
+    font-size: 1.3rem;
     margin-bottom: 2rem;
   }
+
   
   .storyboard-nus-pic{
     border-radius: 1rem;
@@ -360,12 +381,18 @@
   }
   
   .key-user-tasks-nus{
-    margin: 5rem;
+    margin-top: 10rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
   
   .key-user-tasks-nus h1{
     font-size: 3rem;
     margin-bottom: 0rem;
+  }
+
+  .key-user-tasks-nus p{
+    font-size: 1.3rem;
   }
   
   .container-key-user-tasks{
@@ -378,7 +405,7 @@
   }
   
   .connection-text-nus{
-    margin-top: 7rem;
+    margin-top: 4rem;
     padding-left: 10rem;
     text-align: center;
   }
@@ -462,7 +489,8 @@
   }
   
   .low-fi-nus {
-    margin: 5rem;
+    margin: 15rem;
+    margin-top: 5rem !important;
   }
   
   .low-fi-nus h1{
@@ -482,33 +510,44 @@
   }
   
   .wireframe-pic{
-    margin-left: 10rem;
     margin-top: 5rem;
   }
   
-  .low-fi-nus-pt1{
-    margin-top: -1rem;
-    max-width: 80rem;
-    max-height:100rem;
-    margin-left: 10rem;
-  }
   
   .hi-fi-first{
-    margin: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  .hi-fi-first p {
+    font-size: 1.3rem;
   }
   
   .hi-fi-first h1{
     font-size: 3rem;
     margin-bottom: -.2rem;
   }
+
+  .low-fi-nus-pt1{
+    margin-left: -5rem;
+    margin-top: -1rem;
+    max-width: 100rem;
+    max-height:120rem;
+  }
   
   .user-testing{
-    margin: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
   
   .user-testing h1{
     font-size: 3rem;
     margin-bottom: -.2rem;
+  }
+
+  .user-testing h2{
+    font-size:1.5rem;
+    font-weight: 600;
   }
   
   .container-effective-text{
@@ -517,14 +556,12 @@
   
   .container-effective-text h3{
     width: 30rem;
-    margin-right: 10rem;
   }
   
   .container-effective-text p{
     margin-top: 2rem;
     font-size: 1.2rem;
   }
-  
   
   .satisfaction-container{
     display: flex;
@@ -533,16 +570,20 @@
   .satisfaction-container-text h1{
     font-size: 2rem;
   }
+
+  .satisfaction-container-text p{
+    font-size: 1.2rem;
+  }
+
   .effective-pic{
     max-width: 30rem;
     max-height: 30rem;
-    border-radius: 1rem;
+    margin-left: 3rem;
   }
   
   .satisimg{
     max-width: 30rem;
     max-height: 30rem;
-    border-radius: 1rem;
   }
   
   .satis-container{
@@ -552,14 +593,13 @@
   
   .satis-text-container{
     width: 30rem;
-    margin-right: 10rem;
   }
   
   .satis-text-container p{
     font-size: 1.2rem;
     margin-top: 3rem;
+    margin-right: 5rem;
   }
-  
   
   .effic-container{
     margin-top: 5rem;
@@ -567,18 +607,40 @@
   }
   
   .effic-img{
+    margin-top: 5rem;
     max-width: 30rem;
     max-height: 30rem;
-    margin-right: 10rem;
-    border-radius: 1rem;
   }
-  
+
+  .completion-p{
+    font-size: 1rem;
+    color: gray;
+  }
+
+  .effic-img-text{
+    margin-left: 5rem;
+  }
+
+  .effic-img-text p{
+    font-size: 1.2rem;
+  }
+
+
   .user-testing-conclusion{
     margin-top: 5rem;
+  }
+
+  .user-testing-conclusion{
+    font-size: 1.2rem;
   }
   
   .high-fidelity-nus{
     margin: 0rem;
+  }
+
+  .hi-fi-screen-text{
+    margin-top: 10rem;
+    margin-left: 15rem;
   }
   
   .high-fidelity-nus h1{
@@ -592,14 +654,14 @@
   }
   
   .hi-fi-pic-all{
-    margin-left: 10rem;
     max-width: 90rem;
     max-height: 100rem;
   
   }
   
   .hi-fi-all-container{
-    margin: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
   
   .hi-fi-all-container h1{
@@ -607,15 +669,19 @@
   }
   
   .nus-conclusion-container{
-    margin: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  .conclusion-heading{
+    margin-bottom: 3rem;
   }
   
   .nus-conclusion-container h1{
-    font-size: 2.5rem
+    font-size: 3rem;
+    margin-bottom:-.2rem;
   }
   
-  .hi-fi-screen-text{
-    margin-top: 10rem;
-    margin-left: 5rem;
+  .key-takeaways-text{
+    font-size: 1.3rem;
   }
-  
