@@ -1,0 +1,171 @@
+.home-container {
+    text-align: left;
+    margin: 3rem; 
+    font-size: 3rem;
+  }
+
+  .home-body{
+    /*border: 2px solid #000; */
+    background-color: #FEF6E4;
+  }
+
+  .greeting {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 5.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    display: flex;
+  }
+  
+  .ytop{
+    max-height:40rem;
+    max-width: 40rem;
+    flex-shrink: 0;
+    float:right;
+    margin-right: 10rem;
+    margin-top: -19rem;
+    margin-bottom: -8rem;
+  }
+  
+  .oblob{
+    max-height:20rem;
+    max-width: 40rem;
+    margin-left: 45rem;
+    margin-top: -20rem;
+  }
+  
+  .bblob{
+    float: right;
+    margin-top: -40rem;
+    max-height: 20rem;
+    max-width: 20rem;
+    margin-right: 0rem;
+  }
+  
+  .rblob{
+    height: 28rem;
+    margin-top: -7rem;
+    margin-bottom: -3rem;
+  }
+
+  .home-body{
+    color: #000;
+    font-family: "Inter";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 2.4rem */
+    padding: 2rem;
+    width: 40.75rem;
+    margin-left: 26rem;
+    margin-top: -16rem;
+    margin-bottom: 6rem;
+  }
+  
+  .row-container{
+    font-size: 2rem;
+  
+  }
+  
+  .row {
+    width: 40rem;
+    height: 33.75rem;
+    background-color: rgba(188, 231, 132, 0.46);
+  }
+  
+  .row h1{
+    /*margin: 1rem; */
+    color: #000;
+    font-family: Helvetica;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin-left: 46.94rem;
+    width: 26.93rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+  }
+  
+  
+  .row p {
+    margin: 0rem;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 46.94rem;
+    position: static;
+    line-height: 20rem;
+    margin-bottom: -11rem;
+  }
+  
+  .description1{
+    color: #000;
+    display: flex;
+    width: 14rem;
+    height: 2.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem !important;
+    font-style: normal;
+  }
+
+  .container-rec {
+    margin-top: 2.25rem;
+    display: flex;
+    justify-content: flex-end; /* Push the rectangle to the far right */
+    align-items: center;
+  }
+  
+  .rectangle {
+    width: 40.8rem;
+    height: 33.75rem;
+    background-color: rgba(156, 201, 240, 0.78);
+    align-items: center;
+  }
+  
+  
+  .container-rec h1{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    width: 34.75rem;
+    margin-right: 8rem;
+  }
+  
+  .container-rec p{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 12rem;
+    position: absolute;
+    left: 6.5rem;
+  }
+  
+  .description2 {
+    color: #000;
+    display: flex;
+    width: 14rem;
+    height: 2.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem !important;
+    margin-top: 22rem;
+  }
+  
+  .proj1{
+    margin-top: 3rem;
+    margin-left: 7rem;
+    z-index: 1;
+    max-width: 40rem; /* Set the maximum width to 100% of its parent container */
+    max-height: 30rem;
+  }

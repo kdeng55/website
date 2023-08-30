@@ -6,8 +6,10 @@ import More from './pages/More.js';
 import Skills from './pages/Skills.js';
 import Home from './pages/Home.js';
 import NusResearch from './pages/Nusresearch.js';
+import CodingProjects from './pages/CodingProjects.js';
 import {Route, Routes} from "react-router-dom";
 import ScrollToTop from './ScrollTop.js';
+import SoloTravel from './pages/SoloTravel.js'
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/skills" element={<Skills/>} />
         <Route path="/more" element = {<More/>} />
         <Route path="/Nusresearch" element = {<NusResearch/>} />
+        <Route path="/SoloTravel" element={<SoloTravel/>} />
+        <Route path="/CodingProjects" element = {<CodingProjects/>} />
       </Routes>
       <ScrollToTop/>
       </div>

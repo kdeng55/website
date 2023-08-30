@@ -3,6 +3,8 @@ import footer from '../components/footer.js'
 import { Link } from 'react-router-dom';
 import React from 'react';
 import publicationimg from '../img/pub-img.svg'
+import './Projects.css';
+import code from '../img/code.svg'
 
 
 export default function Projects () {
@@ -15,9 +17,11 @@ return <div className="projects">
     <h1 className="projects-h1">UX Projects</h1>
     <div className="project-ux-container">
         <div className="proj1-box">
+        <Link to="/SoloTravel" className="code-link">
         <section className="project-travel"> </section>
             <h4>Solo Travelling, Made Easier.</h4>
             <p>UX Design Project, 2023</p>
+            </Link>
         </div>
         <div className="proj2-box">
         <section className="project-research">
@@ -42,16 +46,21 @@ return <div className="projects">
                 <h4 onClick={openPDF}>Are Large Multimodal Models Emotionally Aware?</h4>
                 </div>
                 <p>Machine Learning Publication, 2023</p>
-                <p>Accepted at ICCV 2023: WECIA Workshop on Emotionally Intelligient AI</p>
+                <p>Accepted at ICCV 2023:</p>
+                <p> WECIA Workshop on Emotionally Intelligient AI</p>
                 
             </section>
             <div className="box-project">
+            <Link to="/CodingProjects" className="code-link">
                 <section className="rectangle-other">
+                <img src={code} className="code-pic" alt="codepicture"/>
                 </section>
+                </Link>
                 <div className="rectangle-text">
                 <h4>Various Coding Projects</h4>
                 </div>
                 <p>React, HTML, CSS, Python, Java, etc.</p>
+            
                 
             </div>
         </div>

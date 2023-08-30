@@ -11,13 +11,15 @@ export default function About () {
     <div className="about-container">
         <section className="background">
         <p>
-            As a computer science student, 
-            I’ve always been interested in human centered computing and Human-Computer Interaction. 
-            I discovered my passion for UX Design while I was studying abroad my Junior Year in Singapore. 
-            I was lucky enough to spend a semester at NUS, and be guided by wonderful teachers and TA’s 
-            through an interaction design class. I found UX design particularly interesting because it explored 
-            the intersection between technology and human behavior. Other than UX design, I am also interested 
-            in the field of machine learning and natural language processing!
+            Hi! My name is Kat and I'm a computer science major with a history
+            minor. Throughout my journey in school, I've found
+            that I'm interested in human centered computing
+            as well as human computer interaction or UX Design. I discovered
+            my UX passion whilst taking an interaction design class abroad
+            in Singapore, and had the help of wonderful teachers and TA's guiding
+            me along. I hope to pursue a future in the intersection of computer science
+            and human behavior.  
+            On top of those, I also am interested in the area of machine learning!
         </p>
         </section>
         <div className="tai-container">

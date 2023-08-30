@@ -6,9 +6,10 @@ return (
      <div className="email"> 
     <h1 onClick={() => window.location = 'mailto:kdeng@bu.edu'}>kdeng@bu.edu</h1>
     </div>
+   { /*
     <div className="socials">
        <h1>Linkedin</h1>
-    </div>
+</div> */}
     </footer>
   );
 };

@@ -9,6 +9,7 @@ import footer from '../components/footer.js'
 import { Link } from 'react-router-dom';
 import '../components/BouncingArrow.css'
 import NusResearch from './Nusresearch.js'
+import './Home.css'
 
 export default function Home () {
 return <div className="home">
