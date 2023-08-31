@@ -269,14 +269,33 @@ body{
   margin:0;
 }
 
-.email{
+.email {
   text-align: center !important;
-  margin: -1rem !important; 
+  margin: -1rem !important;
   width: 120%;
-  height: 12rem;
+  height: auto; /* Adjusted to accommodate content */
   font-size: 2.3rem;
-  border: .1rem solid black; 
+  border: 0.1rem solid black;
+  padding: 1rem; /* Add padding to keep content inside the border */
+  box-sizing: border-box; /* Ensure padding is included in the width and height */
+  display: flex; /* Enable flex layout for content alignment */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
 }
+
+.email h1 {
+  margin: 0; /* Remove margin from the h1 element */
+}
+
+.email p {
+  margin: 0; /* Remove margin from the p element */
+  font-size: 1.2rem; /* Adjust font size for "Designed and Coded by Me" */
+}
+
+
+
+
+
 /*
 .socials{
   width: 50%;
