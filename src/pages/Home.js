@@ -63,11 +63,11 @@ return <div className="home">
         </div>
         <section className="other-projects-code">
             <div className="coding-rectangle">
-            <Link to="website/CodingProjects" className="link-to-code">
+            <Link to="/CodingProjects" className="link-to-code">
             <img src={code} className="code-picture" alt="slice" />
             </Link>
             </div>
-            <Link to="website/CodingProjects" className="link-to-code">
+            <Link to="/CodingProjects" className="link-to-code">
             <div className="coding-text">
                 <h1>Coding Projects and Publications</h1>
                 <p>Python, Java, HTML, CSS and React</p>
