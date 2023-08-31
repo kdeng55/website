@@ -19,14 +19,14 @@ function App() {
     <div className="container>">
       <Routes>
       
-        <Route path ="/" element={<Home/>} />
-        <Route path="/about" element = {<About/>} />
-        <Route path ="projects" element={<Projects/>} />
-        <Route path="/skills" element={<Skills/>} />
-        <Route path="/more" element = {<More/>} />
-        <Route path="/Nusresearch" element = {<NusResearch/>} />
-        <Route path="/SoloTravel" element={<SoloTravel/>} />
-        <Route path="/CodingProjects" element = {<CodingProjects/>} />
+        <Route path ="/website" element={<Home/>} />
+        <Route path="/website/about" element = {<About/>} />
+        <Route path ="/website/projects" element={<Projects/>} />
+        <Route path="/website/skills" element={<Skills/>} />
+        <Route path="/website/more" element = {<More/>} />
+        <Route path="/website/Nusresearch" element = {<NusResearch/>} />
+        <Route path="/website/SoloTravel" element={<SoloTravel/>} />
+        <Route path="/website/CodingProjects" element = {<CodingProjects/>} />
       </Routes>
       <ScrollToTop/>
       </div>
