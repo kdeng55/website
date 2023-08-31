@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kdeng55.github.io/website/",
-  "name": "myweb",
+  "homepage": "https://kdeng55.github.io/website",
+  "name": "website",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
