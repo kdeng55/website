@@ -13,7 +13,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Impor
 
 function App() {
   return (
-    <Router basename ="/website">
+    <Router>
       <NavBar />
       <div className="container">
         <Routes>
