@@ -7,22 +7,11 @@ export default function NavBar (){
         <img src={egg} className="egg" alt="egg" />
         </Link>
         <ul className="nav-font">
-            <CustomLink to="/about">About</CustomLink>
+            <Link to="/about">About</Link>
           {/*   <CustomLink to="/skills">Skills</CustomLink> */}
-            <CustomLink to="/projects">Projects</CustomLink>
+            <Link to="/projects">Projects</Link>
           {/*  <CustomLink to="/more">More</CustomLink>*/}
         </ul>
     </nav>
 }
 
-function CustomLink ({to, children, ...props}) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({path: resolvedPath.pathname, end: true})
-    return (
-        <li className = {isActive ? "active" : ""}>
-            <Link to={to}>{children}</Link>
-        </li>
-        /*This helps light up the current nav object that is clicked on */
-    )
-
-}

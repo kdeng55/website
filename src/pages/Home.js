@@ -50,11 +50,11 @@ return <div className="home">
         </div>
             <div class="container-rec">
                 <p>2023</p>
-                <Link to="website/NusResearch" className="link-to-proj">
+                <Link to="/NusResearch" className="link-to-proj">
                 <h1>Researched and Found @NUS</h1> 
                 </Link>
                 <p class="description2">UX Research and Design</p>
-                <Link to="website/NusResearch" className="link-to-proj">
+                <Link to="/NusResearch" className="link-to-proj">
                 <div class="rectangle">
                 <img src={covernus} className="proj1" alt="proj1" />
                 </div>
