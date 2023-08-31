@@ -9,7 +9,6 @@ import footer from '../components/footer.js'
 import { Link } from 'react-router-dom';
 import covernus from '../img/cover-nus1.svg'
 import '../components/BouncingArrow.css'
-import NusResearch from './Nusresearch.js'
 import cover from '../img/covertravel.png'
 import './Home.css'
 import code from '../img/macbook-code.png'

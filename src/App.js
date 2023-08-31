@@ -5,7 +5,7 @@ import Projects from './pages/Projects.js';
 import More from './pages/More.js';
 import Skills from './pages/Skills.js';
 import Home from './pages/Home.js';
-import NusResearch from './pages/Nusresearch.js';
+import NusResearch from './pages/NusResearch.js';
 import CodingProjects from './pages/CodingProjects.js';
 import ScrollToTop from './ScrollTop.js';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Import HashRouter and other components

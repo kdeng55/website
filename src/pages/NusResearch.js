@@ -1,5 +1,5 @@
 import React from "react";
-import './Nusresearch.css'
+import './NusResearch.css'
 import graphite from '../img/large1.svg'
 import underline from '../img/underline.svg'
 import line from '../img/line.svg'
