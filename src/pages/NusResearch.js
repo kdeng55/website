@@ -35,6 +35,7 @@ import text from '../img/text.svg';
 import arrow from '../img/Arrow.svg';
 import benjamin from '../img/benjamin.png'
 import footer from '../components/footer.js'
+import ScrollToTop from '../ScrollTop.js';
 
 
 function scrollToSection(event, sectionId) {
@@ -55,7 +56,10 @@ export default function Nusresearch () {
     const blueColor = "var(--blue-blue-600, #3676E0)";
 return  (
     <div>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <ScrollToTop />
         <ProgressBar />
+    <div className="nus-all">
     <div className="title-container-nus">
         <div className="title-text-nus">
         <h1>Researched and Found</h1>
@@ -512,6 +516,7 @@ return  (
 
         </div>
     </section>
+    </div>
     {footer()}
     </div>
   );

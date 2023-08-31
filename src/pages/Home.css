@@ -73,6 +73,7 @@
   }
 
   .pic-container{
+    margin-left: -1rem;
     width: 40rem;
     height: 33.75rem;
     background-color: rgba(188, 231, 132, 0.46);
@@ -113,6 +114,7 @@
   }
   
   .rectangle {
+    margin-right: -1rem;
     width: 40.8rem;
     height: 33.75rem;
     background-color: rgba(156, 201, 240, 0.78);
@@ -128,7 +130,7 @@
     font-weight: 700;
     line-height: 3.5rem;
     width: 34.75rem;
-    margin-right: 7rem;
+    margin-right: 8rem;
   }
   
   .container-rec p{
@@ -172,6 +174,7 @@
   }
 
   .other-projects-code{
+    margin-left: -1rem;
     margin-top: 4rem;
     display: flex;
     align-items: center;

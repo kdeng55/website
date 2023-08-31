@@ -15,6 +15,7 @@ import code from '../img/macbook-code.png'
 
 export default function Home () {
 return <div className="home">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <div className="home-container">
         <p className="greeting">C'mon in,</p>
         <p className="greeting">I'm Katherine</p>

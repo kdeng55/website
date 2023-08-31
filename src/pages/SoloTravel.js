@@ -24,6 +24,7 @@ import hifiall from '../img/hifiall-travel.svg'
 import footer from '../components/footer.js'
 import cover from '../img/covertravel.png'
 import cover2 from '../img/covertravel2.png'
+import ScrollToTop from '../ScrollTop.js';
 
 export default function SoloTravel () {
     const imageRefStar = useScrollFadeIn()
@@ -33,8 +34,10 @@ export default function SoloTravel () {
     const imageRef2 = useScrollFadeIn()
     const imageRef3 = useScrollFadeIn()
     return <div>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <ScrollToTop />
          <ProgressBar />
-    <div className="title-container-nus">
+    <div className="title-container-travel">
         <div className="title-text-nus">
         <h1>Carousel</h1>
         <p>New Opportunities for Solo Travel</p>
@@ -85,10 +88,10 @@ export default function SoloTravel () {
             solution to enhance the solo travel experience, offering convenience, safety, and community interaction.
         </p>
      </section>
-     <section className="research-travel-container" id="section1result">
+     <div className="ta-travel-container">
         <h1>Target Audience</h1>
         <img src={line} className="line" alt="line" />
-        <section className="research-travel-target-container">
+        <div className="text-pic-container-travel">
         <p>Our target audience will be solo travellers, typically adults
             from 20-55. From research, I found that whilst young solo 
             travellers (ages 18-30) are the norm in many hostels, solo 
@@ -97,8 +100,8 @@ export default function SoloTravel () {
             over 35 years of age.
         </p>
         <img src={travelpic} className="target-audience-pic-travel" alt="line" />
-        </section>
-    </section>
+        </div>
+     </div>
     <section className="user-research-container-travel">
         <div className="user-research-heading-travel">
             <h1>Competitive Analysis</h1>

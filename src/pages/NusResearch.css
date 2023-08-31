@@ -1,5 +1,5 @@
 .title-container-nus{
-    margin: 5rem;
+    margin-left: 2rem;
     margin-top: 5rem !important;
     display: flex;
   }
@@ -12,15 +12,14 @@
   
   .title-text-nus h1{
     width: 35rem;
-    margin-right: 2rem;
     font-size: 3rem;
     font-style: normal;
     margin-bottom: -.5rem;
     
-    }
+  }
   
   .title-text-nus p {
-    max-width: 30rem;
+    max-width: 35rem;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 300;
@@ -366,7 +365,7 @@
 
   .storyboard-nus-heading h1{
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: -.2rem;
   }
 
   .storyboard-nus-heading p{
@@ -647,6 +646,7 @@
 
   .user-testing-conclusion{
     margin-top: 5rem;
+    line-height: 1.5;
   }
 
   .user-testing-conclusion{
@@ -668,6 +668,7 @@
   }
   
   .hi-fi-pic1{
+    margin-left: -1rem;
     max-width: 70rem;
     max-height: 60rem;
   }
@@ -704,6 +705,10 @@
   .key-takeaways-text{
     font-size: 1.3rem;
     line-height: 1.5;
+  }
+
+  .nus-all{
+    text-align: left;
   }
 
 

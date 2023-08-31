@@ -3,32 +3,80 @@
     font-weight: 600;
   }
 
+.title-container-travel{
+  margin-left: 0rem;
+  margin-top: 5rem !important;
+  display: flex;
+}
+
+.title-text-nus h1{
+  width: 35rem;
+  font-size: 3rem;
+  font-style: normal;
+  margin-bottom: -.5rem;
+  
+}
+
+.title-text-nus p {
+  max-width: 35rem;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2rem; /* 133.333% */
+  letter-spacing: -0.03rem;
+}
+
+.title-text-nus h2{
+  color: var(--blue-blue-600, #3676E0);
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: -.5rem;
+}
+
+.title-text-nus h3{
+  padding-top: 2rem;
+  margin-bottom: -1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.title-text-nus h4{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--blue-blue-600, #3676E0); 
+  margin-bottom:-1.5rem;
+}
+
 .problem-statement-travel{
-    margin: 5rem;
-    text-align: center;
-    margin-bottom: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 15rem;
 }
 
 .problem-statement-travel h1{
+   text-align: center !important;
     font-size: 3rem;
 }
   
 .problem-statement-travel p {
+  text-align: center !important;
   font-size: 1.5rem;
   margin-top: 1rem !important;
-  margin-left: 7rem;
-  margin-right: 7rem;
   line-height: 1.5;
 }
 
 .research-travel-container{
-    margin-left: 15rem;
-    margin-bottom: 10rem;
+  margin-left: 15rem;
+  margin-bottom: 10rem;
 }
 
 .research-travel-container h1{
     font-size: 3rem;
     margin-bottom: -.2rem;
+}
+
+.travel-heading-container-ta{
+   margin-left: -10rem;
 }
 
 .research-travel-container p {
@@ -37,6 +85,7 @@
 }
 
 .user-research-container-travel{
+    text-align: left;
     margin-left: 15rem;
     margin-right: 15rem;
 }
@@ -52,15 +101,35 @@
     line-height: 1.5;
 }
 
+.ta-travel-container{
+  margin-left: 15rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+  text-align: left;
+}
+
+.ta-travel-container h1{
+  margin-bottom: -.2rem;
+  font-size: 3rem;
+}
+
+.text-pic-container-travel{
+  display: flex;
+}
+
+.text-pic-container-travel p{
+  width: 50rem;
+  font-size: 1.3rem;
+  padding-right: 5rem;
+  line-height: 1.5;
+}
+
 .target-audience-pic-travel{
-    margin-right: -20rem;
-    margin-top: -5rem;
+  margin-top: -5rem;
 }
 
 .research-travel-target-container{
     display: flex;
-    margin-right: 0rem !important;
-    margin-bottom: 0rem !important;
 }
 
 .user-research-heading-travel p{
@@ -85,6 +154,7 @@
 }
 
 .empathy-map-heading{
+  text-align: left;
     margin-top: 5rem;
     margin-left: 15rem;
     margin-right: 15rem;
@@ -97,6 +167,7 @@
 }
 
 .empathy-map{
+  text-align: left;
     margin-left: 10rem;
     margin-right: 10rem;
     display: flex;
@@ -126,6 +197,7 @@
 }
 
 .persona-text-travel{
+  text-align: left;
     margin-left: 15rem;
     margin-bottom: 5rem;
 }
@@ -136,6 +208,7 @@
 }
 
 .userflow-travel{
+    text-align: left;
     margin-left: 15rem;
     margin-right: 15rem;
 }
@@ -158,13 +231,15 @@
 }
 
 .key-user-tasks{
+  text-align: left;
     margin-top: 5rem;
     margin-left: 15rem;
     margin-right: 15rem;
 }
 
 .key-user-tasks h1{
-    font-size: 3rem;
+  font-size: 3rem;
+  margin-bottom: -.2rem;
 }
 
 .key-user-tasks p{
@@ -272,6 +347,7 @@
   }
 
   .low-fi-text{
+    text-align: left;
     margin-left: 5rem;
     margin-right: 5rem;
   }
@@ -297,6 +373,7 @@
   }
 
   .hi-fi-prototype-travel-text{
+    text-align: left;
     margin-left:15rem;
     margin-right:15rem;
   }
@@ -329,8 +406,6 @@
     background-color: #EDEDED;
   }
 
- 
-
   .yellow-container{
     width: 3rem;
     height: 3rem;
@@ -347,8 +422,13 @@
   }
 
   .fade-in-container-travel h1{
+    text-align: left;
     margin-left: 10rem;
     font-size: 3rem;
+  }
+
+  .hi-fi-all-container{
+    text-align: left;
   }
 
   .hi-fi-all-container h1{
@@ -356,6 +436,7 @@
   }
 
   .conclusion-travel{
+    text-align: left;
     margin-left: 15rem;
     margin-right: 15rem;
   }
