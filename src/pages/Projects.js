@@ -1,10 +1,11 @@
-import project1 from '../img/project1.svg'
 import footer from '../components/footer.js'
 import { Link } from 'react-router-dom';
 import React from 'react';
 import publicationimg from '../img/pub-img.svg'
 import './Projects.css';
 import code from '../img/code.svg'
+import cover from '../img/covertravel.png'
+import covernus from '../img/cover-nus1.svg'
 
 
 export default function Projects () {
@@ -18,19 +19,21 @@ return <div className="projects">
     <div className="project-ux-container">
         <div className="proj1-box">
         <Link to="/SoloTravel" className="code-link">
-        <section className="project-travel"> </section>
-            <h4>Solo Travelling, Made Easier.</h4>
+        <section className="project-travel"> 
+        <img src={cover} className="cover-travelpic" alt="travel-img"/>
+        </section>
+            <h4>Carousel.</h4>
             <p>UX Design Project, 2023</p>
             </Link>
         </div>
         <div className="proj2-box">
         <section className="project-research">
         <Link to="/NusResearch" className="research-link">
-        <img src={project1} className="proj1-projects" alt="proj1" />
+        <img src={covernus} className="proj1-projects" alt="proj1" />
         </Link>
         </section>
         <Link to="/NusResearch" className="research-link">
-            <h4>Researched and Found @NUS</h4>
+            <h4>Researched and Found @ NUS</h4>
             <p> UX Design Project, 2023</p>
         </Link>
         </div>

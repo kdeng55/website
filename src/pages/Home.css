@@ -66,48 +66,37 @@
   
   .row-container{
     font-size: 2rem;
-  
   }
-  
-  .row {
+
+  .travel-container{
+    display: flex;
+  }
+
+  .pic-container{
     width: 40rem;
     height: 33.75rem;
     background-color: rgba(188, 231, 132, 0.46);
   }
-  
-  .row h1{
-    /*margin: 1rem; */
-    color: #000;
-    font-family: Helvetica;
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3.5rem;
-    margin-left: 46.94rem;
-    width: 26.93rem;
-    margin-top: 3rem;
-    margin-bottom: 0rem;
+
+  .travel-text-container-home{
+    width: 40rem;
+    padding-left: 10rem;
   }
-  
-  
-  .row p {
-    margin: 0rem;
-    color: #000;
+
+  .travel-text-container-home h1{
+    margin-bottom: 0rem;
+    margin-top: -1rem;
+  }
+
+  .travel-text-container-home p{
     font-family: Helvetica;
     font-size: 1.75rem;
-    font-style: normal;
     font-weight: 700;
-    margin-left: 46.94rem;
-    position: static;
-    line-height: 20rem;
-    margin-bottom: -11rem;
   }
-  
+
   .description1{
     color: #000;
-    display: flex;
     width: 14rem;
-    height: 2.5625rem;
     flex-direction: column;
     justify-content: center;
     font-size: 1rem !important;
@@ -115,9 +104,9 @@
   }
 
   .container-rec {
-    margin-top: 2.25rem;
+    margin-top: 4rem;
     display: flex;
-    justify-content: flex-end; /* Push the rectangle to the far right */
+    justify-content: flex-end; 
     align-items: center;
   }
   
@@ -161,6 +150,11 @@
     font-size: 1rem !important;
     margin-top: 22rem;
   }
+
+  .proj-travel{
+    max-width: 45rem; 
+    max-height: 40rem;
+  }
   
   .proj1{
     margin-top: 3rem;
@@ -168,4 +162,49 @@
     z-index: 1;
     max-width: 40rem; /* Set the maximum width to 100% of its parent container */
     max-height: 30rem;
+  }
+
+  .link-solo{
+    color: black;
+    text-decoration: none;
+  }
+
+  .other-projects-code{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .coding-rectangle{
+    background-color: rgba(244, 231, 132, 0.46);
+    width: 40.8rem;
+    height: 33.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coding-text{
+    padding-left: 10rem;
+  }
+
+  .coding-text h1{
+    font-size: 3rem;
+    width: 40rem;
+  }
+
+  .coding-text p{
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .code-picture{
+    max-width: 35rem;
+    max-height: 30rem;
+  }
+
+  .link-to-code{
+    text-decoration: none;
+    color: black;
   }

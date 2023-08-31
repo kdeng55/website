@@ -171,7 +171,7 @@ export default function SoloTravel () {
             user flow of the user going through the application in order to get a better
             visualization of what my application would look like. For this flow chart, 
             I visualized what the steps would be to reach out to a fellow traveller and message
-            them about potentially meeting up. 
+            them about potentially meeting up.
         </p>
         <img src={userflow} className="userflow-pic" alt="user flow"/>
     </section>
@@ -327,7 +327,7 @@ export default function SoloTravel () {
             </div>
             </div>
 
-            <div className="fade-in-container" ref={imageRef2}>
+            <div className="fade-in-container-travel" ref={imageRef2}>
                 <div className="hi-fi-pic1">
                 <h1>Safety</h1>
             <ImageFade
@@ -338,7 +338,7 @@ export default function SoloTravel () {
             </div>
             </div>
 
-        <div className="fade-in-container" ref={imageRef3}>
+        <div className="fade-in-container-travel" ref={imageRef3}>
             <div className="hi-fi-pic1">
             <h1>Itinerary</h1>
             <ImageFade

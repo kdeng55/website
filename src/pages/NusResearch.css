@@ -89,6 +89,7 @@
   .second-pic-nus-text p {
     font-size: 1.5rem;
     max-width: 50rem !important;
+    line-height: 1.5;
   }
   
   .second-pic-nus-text-bottom-container{
@@ -124,6 +125,7 @@
     margin-top: 1rem !important;
     margin-left: 7rem;
     margin-right: 7rem;
+    line-height: 1.5;
   }
 
   .design-overview-nus{
@@ -166,7 +168,7 @@
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
-    
+    line-height: 1.5;
     letter-spacing: -0.025rem;
     color: var(--gray-gray-700, #5E6B81);
   }
@@ -267,6 +269,7 @@
   
   .qualitative-research-nus p {
     font-size: 1.3rem;
+    line-height: 1.5;
   }
   
   .observation-nus h2{
@@ -297,18 +300,22 @@
   
   .trust-nus li{
     font-size: 1.3rem;
+    line-height: 1.5;
   }
   
   .commun-nus li{
     font-size: 1.3rem;
+    line-height: 1.5;
   }
   
   .adv-nus li{
     font-size: 1.3rem;
+    line-height: 1.5;
   }
   
   .ineff-nus li{
     font-size: 1.3rem;
+    line-height: 1.5;
   }
 
   .persona-container{
@@ -335,6 +342,7 @@
 
   .persona-text-nus p{
     font-size: 1.3rem;
+    line-height: 1.5;
   }
 
 
@@ -364,6 +372,7 @@
   .storyboard-nus-heading p{
     font-size: 1.3rem;
     margin-bottom: 2rem;
+    line-height: 1.5;
   }
 
   
@@ -393,6 +402,7 @@
 
   .key-user-tasks-nus p{
     font-size: 1.3rem;
+    line-height: 1.5;
   }
   
   .container-key-user-tasks{
@@ -424,6 +434,7 @@
   .connection-text-nus p{
     color: gray;
     font-size: 1.5rem;
+    line-height: 1.5;
   }
   
   .scheduling-text-nus{
@@ -448,7 +459,7 @@
   
   .schedule-text{
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 3rem;
     width: 35rem;
   }
   
@@ -460,6 +471,7 @@
   .schedule-text p {
     color: gray;
     font-size: 1.5rem;
+    line-height: 1.5;
   }
   
   .feedback-container-nus{
@@ -473,7 +485,7 @@
   }
   
   .feedback-text-nus{
-    margin-top: 7rem;
+    margin-top: 3rem;
     text-align: center;
     padding-left: 10rem;
   }
@@ -486,6 +498,7 @@
   .feedback-text-nus p{
     color: gray;
     font-size: 1.5rem;
+    line-height: 1.5;
   }
   
   .low-fi-nus {
@@ -521,6 +534,7 @@
 
   .hi-fi-first p {
     font-size: 1.3rem;
+    line-height: 1.5;
   }
   
   .hi-fi-first h1{
@@ -561,6 +575,7 @@
   .container-effective-text p{
     margin-top: 2rem;
     font-size: 1.2rem;
+    line-height: 1.5;
   }
   
   .satisfaction-container{
@@ -573,6 +588,7 @@
 
   .satisfaction-container-text p{
     font-size: 1.2rem;
+    line-height: 1.5;
   }
 
   .effective-pic{
@@ -599,6 +615,7 @@
     font-size: 1.2rem;
     margin-top: 3rem;
     margin-right: 5rem;
+    line-height: 1.5;
   }
   
   .effic-container{
@@ -615,6 +632,7 @@
   .completion-p{
     font-size: 1rem;
     color: gray;
+    line-height: 1.5;
   }
 
   .effic-img-text{
@@ -623,6 +641,7 @@
 
   .effic-img-text p{
     font-size: 1.2rem;
+    line-height: 1.5;
   }
 
 
@@ -684,6 +703,7 @@
   
   .key-takeaways-text{
     font-size: 1.3rem;
+    line-height: 1.5;
   }
 
 

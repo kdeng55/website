@@ -19,7 +19,8 @@
   }
   
   .proj1-box{
-    margin-right: 5rem;
+    margin-right: 9rem;
+
   }
   
   .proj1-box h4{
@@ -49,10 +50,12 @@
     height: 20rem;
     flex-shrink:0;
     background-color: #DBECFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .proj2-box h4{
-    margin-left: 5rem;
     color: var(--dark-grey-80, #101214);
     font-size: 1.5rem;
     font-style: normal;
@@ -63,7 +66,6 @@
   }
   
   .proj2-box p{
-    margin-left: 5rem;
     color: var(--dark-grey-60, #73808D);
     font-size: 1rem;
     font-style: normal;
@@ -75,11 +77,13 @@
   .project-research{
     border: .2rem solid;
     float: right;
-    margin-left: 5rem;
     width: 28rem;
     height: 20rem;
     flex-shrink:0;
     flex-grow: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FFEFD7;
   }
   
@@ -138,9 +142,8 @@
   }
   
   .proj1-projects {
-    padding-left: 2.5rem;
-    width: 25rem;
-    height: 20rem;
+    max-width: 20rem;
+    max-height: 18rem;
   }
 
   .research-link{
@@ -149,11 +152,18 @@
   
   .code-link{
     text-decoration: none; 
-      color: black; 
+    color: black; 
   }
 
   .code-pic{
     max-width: 20rem;
     max-height: 20rem;
   }
+
+  .cover-travelpic{
+    max-width: 28rem;
+    max-height: 28rem;
+    margin-top: 2rem;
+  }
+
 
