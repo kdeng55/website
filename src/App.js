@@ -7,7 +7,7 @@ import Skills from './pages/Skills.js';
 import Home from './pages/Home.js';
 import NusResearch from './pages/Nusresearch.js';
 import CodingProjects from './pages/CodingProjects.js';
-import {HashRouter} from "react-router-dom";
+import {HashRouter, Route} from "react-router-dom";
 import ScrollToTop from './ScrollTop.js';
 import SoloTravel from './pages/SoloTravel.js'
 
