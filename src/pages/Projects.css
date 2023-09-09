@@ -13,6 +13,7 @@
   .project-ux-container{
     display: flex;
     justify-content: center;
+    text-align: left;
     margin-right: 5rem;
     margin-left: 5rem;
     margin-top: 5rem;
