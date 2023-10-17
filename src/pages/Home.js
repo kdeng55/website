@@ -21,13 +21,13 @@ return <div className="home">
         <p className="greeting">I'm Katherine</p>
         <img src={ytop} className="ytop" alt="yblob" />
         <img src={greenblob} className="gblob" alt="gblob" />
-        <body className="home-body">
+        <div className="home-body">
         <p className="font-Inter">Hi!
             I’m a current senior @ Boston University, 
-            majoring in Computer Science and minoring in History. 
+            majoring in Computer Science and minoring in History.
             Feel free to explore around my website. Check out some of
             my projects below</p>
-        </body>
+        </div>
         <img src={redblob} className="rblob" alt="rblob" />
         <img src={orange} className="oblob" alt="oblob"/>
         </div>
@@ -51,7 +51,9 @@ return <div className="home">
             <div class="container-rec">
                 <p>2023</p>
                 <Link to="/NusResearch" className="link-to-proj">
+                <div className="researched-found-link">
                 <h1>Researched and Found @NUS</h1> 
+                </div>
                 </Link>
                 <p class="description2">UX Research and Design</p>
                 <Link to="/NusResearch" className="link-to-proj">

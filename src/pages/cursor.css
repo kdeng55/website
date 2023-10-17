@@ -1,0 +1,8 @@
+.retro-cursor {
+  cursor: url('../img/cursor.cur'), auto;
+  /* Specify the custom cursor image and a fallback cursor type (in case the custom cursor doesn't load) */
+  
+  width: 32px; /* Set the width of the cursor image */
+  height: 32px; /* Set the height of the cursor image */
+  background-color: transparent; /* Make the background transparent */
+}

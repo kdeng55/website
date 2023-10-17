@@ -24,7 +24,7 @@ export default function About () {
         </section>
         <div className="tai-container">
         <img src={taiwan} className="taiwan" alt="img2" />
-        <p className="caption-taiwan">me, circa taiwan, 2023</p>
+        <p className="caption-taiwan">me, circa 2023, taiwan</p>
         </div>
     </div>
     <div className="hobbies">

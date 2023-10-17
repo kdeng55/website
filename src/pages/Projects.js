@@ -10,7 +10,7 @@ import covernus from '../img/cover-nus1.svg'
 
 export default function Projects () {
     const openPDF = () => {
-        const pdfURL = 'https://drive.google.com/file/d/1sExNwzOlYd_9BvcRp5IvDTvOd9ONJwgz/view?usp=sharing';
+        const pdfURL = 'https://arxiv.org/abs/2308.16741';
         window.open(pdfURL, '_blank');
       };
 
