@@ -12,14 +12,10 @@ export default function About () {
         <section className="background">
         <p>
             Hi! My name is Kat and I'm a computer science major with a history
-            minor. Throughout my journey in school, I've found
+            minor at Boston University. Throughout my journey in school, I've found
             that I'm interested in human centered computing
-            as well as human computer interaction or UX Design. I discovered
-            my UX passion whilst taking an interaction design class abroad
-            in Singapore, and had the help of wonderful teachers and TA's guiding
-            me along. I hope to pursue a future in the intersection of computer science
-            and human behavior.  
-            On top of those, I also am interested in the area of machine learning!
+            as well as human computer interaction. I love exploring the intersection
+            between technology and human behavior! 
         </p>
         </section>
         <div className="tai-container">
@@ -30,11 +26,11 @@ export default function About () {
     <div className="hobbies">
             <section className="things-i-enjoy">
             <h1>Things I enjoy</h1>
-            <p>While I’m not designing or coding, I love to try new food, play video games, and most of all, travel!</p>
+            <p>I like machine learning, travelling and trying out new foods from around the world</p>
             </section>
             <section className="my-current-obsession">
             <h1>My current Obsession</h1>
-            <p>Watching Disney movies. I love the nostalgia of watching early 2000 Pixar movies.</p>
+            <p>Watching Disney movies. I love the nostalgia of watching early 2000's animated movies.</p>
             </section>
         </div>
         {footer()}

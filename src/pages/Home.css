@@ -175,29 +175,30 @@
   }
 
   .other-projects-code{
-    margin-left: -1rem;
-    margin-top: 4rem;
-    display: flex;
-    align-items: center;
-    text-align: left;
+    margin-top: 4rem;   
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 8rem;
   }
 
   .coding-rectangle{
+    margin-right:-1rem;
     background-color: rgba(244, 231, 132, 0.46);
     width: 40.8rem;
     height: 33.75rem;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
 
   .coding-text{
     padding-left: 10rem;
+    text-align: left;
   }
 
   .coding-text h1{
-    font-size: 3rem;
-    width: 40rem;
+    font-size: 3.5rem;
+    font-weight: 700;
   }
 
   .coding-text p{

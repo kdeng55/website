@@ -25,8 +25,7 @@ return <div className="home">
         <p className="font-Inter">Hi!
             I’m a current senior @ Boston University, 
             majoring in Computer Science and minoring in History.
-            Feel free to explore around my website. Check out some of
-            my projects below</p>
+            Feel free to explore around my website.</p>
         </div>
         <img src={redblob} className="rblob" alt="rblob" />
         <img src={orange} className="oblob" alt="oblob"/>
@@ -34,6 +33,19 @@ return <div className="home">
         <img src={blueblob} className="bblob" alt="bblob" /> 
         <div className="down-arrow"></div>
         <div className="row-container"> 
+        <section className="other-projects-code">
+        <div className="coding-text">
+                <h1>Coding Projects and Publications</h1>
+                <p>Python, Java, HTML, CSS and React</p>
+            </div>
+            <div className="coding-rectangle">
+            <Link to="/CodingProjects" className="link-to-code">
+            <img src={code} className="code-picture" alt="slice" />
+            </Link>
+            </div>
+            <Link to="/CodingProjects" className="link-to-code">
+            </Link>
+        </section>
         <div className="travel-container">
             <div className="pic-container">
             <Link to="/SoloTravel" className="link-solo">
@@ -63,20 +75,6 @@ return <div className="home">
                 </Link>
             </div>
         </div>
-        <section className="other-projects-code">
-            <div className="coding-rectangle">
-            <Link to="/CodingProjects" className="link-to-code">
-            <img src={code} className="code-picture" alt="slice" />
-            </Link>
-            </div>
-            <Link to="/CodingProjects" className="link-to-code">
-            <div className="coding-text">
-                <h1>Coding Projects and Publications</h1>
-                <p>Python, Java, HTML, CSS and React</p>
-            </div>
-            </Link>
-            
-        </section>
         {footer()}
     </div>
 }
